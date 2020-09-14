@@ -1,3 +1,5 @@
+.font-smoothing { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
 /** Reset some basic elements */
 * { box-sizing: border-box !important; margin: 0; }
 
@@ -32,7 +34,6 @@ pre { border-left: 8px solid #ddd; margin: 32px 0; padding-left: 16px; width: 75
 
 code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
-
 .prose a { text-decoration: underline dotted; }
 
 .prose a:hover { text-decoration: underline; }
@@ -57,7 +58,7 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
 @media (min-width: 52em) { .prose blockquote { padding-left: 32px; margin: 64px 0 64px -40px; max-width: 110%; } .prose blockquote p { font-size: 32px; } }
 
-.prose hr {  border-style: solid; border-width: thin; margin-top: 0.5em; margin-bottom: 0.5em; }
+.prose hr { color: #181818; border-style: solid; border-width: thin; margin-top: 0.5em; margin-bottom: 0.5em; }
 
 .prose dt { font-weight: bold; font-style: italic; line-height: 1.25; }
 
@@ -74,9 +75,9 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 .prose table tr th { border-top: 2px solid #181818; border-bottom: 2px solid #181818; }
 
 /* Type utilities */
-.h0 { font-size: 64px; line-height: 1.0125; margin-top: 0.85em; word-wrap: break-word;}
+.h0 { font-size: 64px; line-height: 1.0125; margin-top: 0.85em; word-wrap: break-word; }
 
-@media (min-width: 52em) { .h0 { font-size: 95px; } }
+@media (min-width: 52em) { .h0 { font-size: 128px; } }
 
 .text-right { text-align: right; }
 
@@ -90,7 +91,7 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
 .lh-condensed { line-height: 1.25; }
 
-.list-reset { list-style: none; padding-left: 0;}
+.list-reset { list-style: none; padding-left: 0; }
 
 /* Border utilities */
 .border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
@@ -104,22 +105,24 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 .border-0 { border: 0; }
 
 /* Theme color utilities */
-.header-background { background-color: #f5f5f5; }
+.header-background { background-color: #181818; }
 
-.header-border { border-color: #f5f5f5; background: #f5f5f5;}
+.header-border { border-color: #fff; }
 
-.header-title { color: #f5f5f5; }
+.header-title { color: #fff; }
 
-.header-social { fill: #181818; }
+.header-text { color: #fff; }
+
+.header-social { fill: #fff; }
 
 .header-social-accent { fill: #E74727; }
 
-.header-link:hover { color: #DC3918 !important; }
+.header-link:hover { color: #E74727 !important; }
 
-.text-accent { color: #DC3918; }
+.text-accent { color: #E74727; }
 
 /* Layout utilities */
-.container { max-width: 80em; }
+.container { max-width: 64em; }
 
 .col-1 { width: 8.3333333333%; }
 
@@ -127,7 +130,7 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
 .col-3 { width: 25%; }
 
-.col-4 { width: 70%; }
+.col-4 { width: 33.3333333333%; }
 
 .col-5 { width: 41.6666666667%; }
 
@@ -137,15 +140,13 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
 .col-8 { width: 66.6666666667%; }
 
-.col-9 { width: 100%;}
+.col-9 { width: 75%; }
 
 .col-10 { width: 83.3333333333%; }
 
 .col-11 { width: 91.6666666667%; }
 
 .col-12 { width: 100%; }
-
-.section { text-align: center; }
 
 @media (max-width: 52em) { .sm-width-full { width: 100% !important; } }
 
@@ -163,8 +164,7 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
 .clearfix:after { clear: both; }
 
-
-.align-middle { vertical-align: middle;}
+.align-middle { vertical-align: middle; }
 
 /* Padding */
 .px-0 { padding-left: 0; padding-right: 0; }
@@ -238,112 +238,6 @@ code { color: #DC3918; font-size: 16px; padding: 1px 0px; }
 
 .link-primary { font-weight: bold; text-decoration: none !important; }
 
-.link-primary:hover { color: #DC3918; text-decoration: none !important; }
+.link-primary:hover { color: #E74727; text-decoration: none !important; }
 
 /*# sourceMappingURL=style.css.map */
-
-.header-background { width:100%; height: 100%; background:url("img/header.png"); }
-
-
-/* Style all font awesome icons */
-.fa { padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; }
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-linkedin { background: #3B5998; color: white; }
-
-/* Twitter */
-.fa-twitter { background: #55ACEE; color: white; }
-
-.column {
-  float: left; 
-}
-
-.column li {list-style-type: none; float:left;  padding: 10px; text-align: center; color:#A8A8A8; }
-.column ul {display:block; margin-left:auto; margin-right:auto; padding-left:55px; }
-
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-IMG.displayed {
-    width:450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-
-h3{ text-align:center;}
-
-IMG.icons {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; } 
-
-button {
-  border: none;
-  width:150px;
-  height:45px;
-  color:white;
-  background-color: #181818;
-  
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 5px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.footer{
-    background-image:url("img/footer.png");
-}
-img.footer{width:100%;height:auto;}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.contact{
-  width:100%;
-  margin-top:100px;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
