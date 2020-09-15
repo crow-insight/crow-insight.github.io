@@ -8,7 +8,7 @@
 .u-section-1 .u-text-2 {margin-left: 0; margin-right: 0} }
 
 @media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: auto} }.u-section-2 .u-sheet-1 {min-height: 224px}
-.u-section-2 .u-tabs-1 {min-height: 164px; margin: 60px auto 0 0}
+.u-section-2 .u-tabs-1 {min-height: 164px; height: auto; margin: 60px auto 0 0}
 .u-section-2 .u-tab-link-1 {font-size: 1.25rem; background-image: none; font-weight: 600; padding: 10px 25px}
 .u-section-2 .u-tab-link-2 {font-size: 1.25rem; background-image: none; font-weight: 600; padding: 10px 25px}
 .u-section-2 .u-container-layout-1 {padding: 30px 25px}
@@ -23,7 +23,7 @@
 .u-section-2 .u-btn-8 {border-style: none; font-weight: 700; font-size: 0.875rem; text-transform: uppercase; margin: -22px auto 0 204px; padding: 0}
 .u-section-2 .u-btn-9 {border-style: none; font-weight: 700; font-size: 0.875rem; text-transform: uppercase; margin: -22px auto 0 336px; padding: 0} 
 
-@media (max-width: 1199px){ .u-section-2 .u-tabs-1 {height: auto; margin-right: initial; margin-left: initial}
+@media (max-width: 1199px){ .u-section-2 .u-tabs-1 {margin-right: initial; margin-left: initial}
 .u-section-2 .u-btn-1 {height: 22px}
 .u-section-2 .u-btn-2 {width: 88px; height: 22px; margin-left: 0}
 .u-section-2 .u-btn-3 {width: 88px; height: 22px; margin-left: 21px}
