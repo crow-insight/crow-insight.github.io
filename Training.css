@@ -1,0 +1,28 @@
+.u-section-1 {background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/CrowInsight_sitebanner1.png"); background-position: 50% 50%}
+.u-section-1 .u-sheet-1 {min-height: 500px}
+.u-section-1 .u-text-1 {font-weight: 700; font-size: 6rem; text-transform: none; margin: 155px auto 0 20px}
+.u-section-1 .u-text-2 {margin: 31px 361px 0 20px} 
+
+@media (max-width: 1199px){ .u-section-1 .u-sheet-1 {min-height: 646px}
+.u-section-1 .u-text-1 {margin-left: 0; margin-right: 0}
+.u-section-1 .u-text-2 {margin-left: 0; margin-right: 0} }
+
+@media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: auto} }.u-section-2 .u-sheet-1 {min-height: 607px}
+.u-section-2 .u-text-1 {font-size: 1.875rem; font-weight: 700; margin: 70px auto 0}
+.u-section-2 .u-image-1 {height: 395px; margin: 30px auto 0 0}
+.u-section-2 .u-text-2 {margin: 30px auto 0}
+.u-section-2 .u-btn-1 {border-style: none; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin: 30px auto 60px} 
+
+@media (max-width: 1199px){ .u-section-2 .u-image-1 {margin-right: initial; margin-left: initial} }.u-section-3 .u-sheet-1 {min-height: 607px}
+.u-section-3 .u-text-1 {font-size: 1.875rem; font-weight: 700; margin: 70px auto 0}
+.u-section-3 .u-image-1 {height: 395px; margin: 30px auto 0 0}
+.u-section-3 .u-text-2 {margin: 30px auto 0}
+.u-section-3 .u-btn-1 {border-style: none; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin: 30px auto 60px} 
+
+@media (max-width: 1199px){ .u-section-3 .u-image-1 {margin-right: initial; margin-left: initial} }.u-section-4 .u-sheet-1 {min-height: 607px}
+.u-section-4 .u-text-1 {font-size: 1.875rem; font-weight: 700; margin: 70px auto 0}
+.u-section-4 .u-image-1 {height: 395px; margin: 30px auto 0 0}
+.u-section-4 .u-text-2 {margin: 30px auto 0}
+.u-section-4 .u-btn-1 {border-style: none; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin: 30px auto 60px} 
+
+@media (max-width: 1199px){ .u-section-4 .u-image-1 {margin-right: initial; margin-left: initial} }
