@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <header>
+    {% include nav.html %}
+  </header>
+  <main>
+    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+  </main>
+  <aside>
+    {{content}}
+  </aside>
+
+
+</body>
+</html>
