@@ -8,17 +8,50 @@
   <link rel="stylesheet" href="/css/main.css">
 </head>
 
+<style>
+
+.container{
+  width: 1160px;
+  margin: auto;
+}
+h2{
+  margin-top: 50px;
+  font-size: 72px;
+  color: #0D226B;
+}
+
+main{
+  float: left;
+  width: 65%;
+}
+
+aside{
+  float:right;
+  width:30%;
+
+}
+
+.row {
+  margin-top:50px;
+}
+</style>
+
+
 <body>
   <header>
     {% include nav.html %}
   </header>
+  <div class="container">
+  <h2>{{page.title}}</h2>
+  <div class="row">
   <main>
-    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
   </main>
   <aside>
     {{content}}
   </aside>
-
+</div>
+</div>
 
 </body>
 </html>

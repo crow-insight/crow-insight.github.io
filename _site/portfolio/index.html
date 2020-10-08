@@ -1,0 +1,173 @@
+<!doctype html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo">
+    <img src="/assets/img/logo.png" alt="crow insight logo"/>
+  </label>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Our Work</a></li>
+    <li><a href="#">Collaborate</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="hero-image">
+      <img src="/assets/img/homebanner.png" alt="" class="featured-image-post">
+      <div class="centered">
+        <h1>Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+    </div>
+  </header>
+  <div class="wrapper">
+    <style>
+
+  /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+</style>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Subject Matter</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Technical Capabilities</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+      <!-- Inside Tab -->
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">Environment</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Public Health</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Criminal Justice</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Education</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Transportation</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Emergency Relief</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Internation Development</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Informational Development</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Energy</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Measurement & Evaluation</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Statisical Surveys</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Data Quality</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Risk & Uncertainty</button>
+      </div>
+
+      <div id="London" class="tabcontent">
+        <h3>Subject Matter</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h3>Technical Capabilities</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+</div>
+
+<div id="Paris" class="tabcontent">
+      <!-- Inside Tab -->
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">Scientific & Technical Illustrations</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Graphic Design</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Report Layout</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Presentation Design</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Professional Edting</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Web Development</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">Data Modeling</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Python & Javascript</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">D3.JS</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Storytelling</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">R & RSTUDIO</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">TABULEA</button>
+      </div>
+
+      <div id="London" class="tabcontent">
+        <h3>Subject Matter</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h3>Technical Capabilities</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+</div>
+
+
+
+
+<script>
+  function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+  </div>
+
+</body>
+</html>

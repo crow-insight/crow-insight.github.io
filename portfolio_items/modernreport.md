@@ -1,8 +1,8 @@
 ---
 layout: item
 title: "Modern Report Design"
-Image: /assets/img/modernreport.png
-permalink: /modernreport.html/
+Image: "../assets/img/modernreport.png"
+permalink: /modernreport/
 ---
 
 A clean and polished layout accentuates key messages and makes a report more readable. Crow Insight’s design of U.S. EPA’s National Lakes Assessment (NLA) report focuses attention on the stars of the show: the science and the data.
