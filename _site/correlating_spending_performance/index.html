@@ -14,6 +14,10 @@
   width: 1160px;
   margin: auto;
 }
+
+img{
+  object-fit: cover;
+}
 h2{
   margin-top: 50px;
   font-size: 72px;
@@ -34,6 +38,31 @@ aside{
 .row {
   margin-top:50px;
 }
+
+@media (max-width: 650px){
+
+  .container{
+    width: 400px;
+    margin: auto;
+  }
+  main{
+    float: none;
+    width: 400px;
+    margin-bottom: 40px;
+  }
+
+  aside{
+    float: none;
+    width: 350px;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+  }
+}
 </style>
 
 
@@ -48,7 +77,7 @@ aside{
     <img src="/assets/img/logo.png" alt="crow insight logo"/>
   </label>
   <ul>
-    <li><a href="">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="/portfolio/">Our Work</a></li>
     <li><a href="/ourwork/">Collaborate</a></li>
     <li><a href="/about/">About</a></li>
@@ -71,6 +100,19 @@ aside{
   </aside>
 </div>
 </div>
+<style>
+  @media screen and (max-width: 650px) {
+    footer img {
+      width: 400px;
+      height: 200px;
+      margin: auto;
+      object-fit: cover;
+    }
+</style>
+
+<footer>
+  <img src="/assets/img/footer.png" alt="">
+</footer>
 
 </body>
 </html>

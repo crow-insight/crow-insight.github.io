@@ -26,7 +26,7 @@ a.active, a:hover { background: #FDBE34; transition: .5s; }
 
 .wrapper { margin-right: auto; /* 1 */ margin-left: auto; /* 1 */ max-width: 1160px; /* 2 */ padding-right: 10px; /* 3 */ padding-left: 10px; /* 3 */ }
 
-.featured-image-post { position: relative; height: 500px; width: 100%; content-fit: cover; }
+.featured-image-post { position: relative; height: 500px; width: 100%; }
 
 .centered { position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; width: 700px; text-shadow: 0 0 10px #323232; }
 
@@ -34,6 +34,6 @@ a.active, a:hover { background: #FDBE34; transition: .5s; }
 
 .centered p { display: block; font-size: 20px; }
 
-@media (max-width: 858px) { .centered { width: 350px; top: 33%; } .centered h1 { font-size: 50px; } .centered p { font-size: 14px; } }
+@media (max-width: 858px) { .centered { width: 350px; top: 33%; } .centered h1 { font-size: 50px; } .centered p { font-size: 14px; } .featured-image-post { object-fit: cover; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -18,7 +18,6 @@
   position:relative;
   height:500px;
   width: 100%;
-  content-fit: cover;
 }
 
 .centered{
@@ -48,6 +47,7 @@
   .centered {
     width: 350px;
     top: 33%;
+
   }
 
   .centered h1{
@@ -56,5 +56,8 @@
 
   .centered p{
     font-size: 14px;
+  }
+  .featured-image-post{
+    object-fit: cover;
   }
 }
