@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Who We Are"
-image: "/assets/img/homebanner.png"
+image: "/assets/img/aboutbanner.png"
 permalink: "/about/"
 excerpt: "We are data analysts, information architects,
  graphic designers, illustrators, and editors committed
@@ -87,7 +87,6 @@ and flexible collaborators guided by the core principles below."
     padding-top:10px;
   }
 
-  /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
@@ -138,18 +137,46 @@ and flexible collaborators guided by the core principles below."
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-}
+  }
 
-#group2{
+  #group2{
   margin-top:50px;
-}
+  }
 
   @media (max-width: 600px){
-  .icon{
+    .icon{
+     flex-flow: row wrap;
+     flex-direction: column;
+     width: 350px;
+     margin: auto;
+
+    }
+
+    .col {
+      text-align: center;
+    }
+
+     .col img {
+       width: 330px;
+     }
+
+     .col p{
+       width: 330px;
+       text-align: center;
+     }
+
+
+
+ .row {
    flex-flow: row wrap;
    flex-direction: column;
-   text-align: center;
-  }
+   width: 350px;
+   margin: auto;
+ }
+
+ .dot {
+   margin-top: 40px;
+ }
 }
 
 </style>

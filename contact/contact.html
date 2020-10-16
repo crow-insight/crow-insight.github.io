@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Get In Touch"
-image: "/assets/img/homebanner.png"
+image: "/assets/img/contactbanner.png"
 permalink: "/contact/"
 excerpt: " Contact us to learn more about our work and whether our services are right for you. "
 ---
@@ -49,6 +49,12 @@ input[type=submit]:hover {
   color: #0D226B;
 }
 
+@media screen and (max-width: 650px) {
+  .centered {
+    width: 350px;
+  }
+}
+
 
 </style>
 
@@ -56,20 +62,20 @@ input[type=submit]:hover {
 <div class="container">
   <form action="action_page.php">
 
-    <label for="fname">First Name</label>
+    <label for="fname">Full Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label for="lname">Email</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
+    <label for="country">Where did you hear about us?</label>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+      <option value="australia">LinkedIn</option>
+      <option value="canada">...</option>
+      <option value="usa">Other</option>
     </select>
 
-    <label for="subject">Subject</label>
+    <label for="subject">Message</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
