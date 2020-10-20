@@ -2,7 +2,7 @@
 
 body { font-family: helvetica, arial, sans-serif; }
 
-nav { background: #F2F7FF; height: 80px; width: 100%; }
+nav { background: white; height: 80px; width: 100%; }
 
 label.logo { color: #0D226B; font-size: 35px; line-height: 80px; padding: 0 100px; font-weight: bold; }
 
