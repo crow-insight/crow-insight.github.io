@@ -5,15 +5,21 @@
   <meta charset="utf-8">
   <title>How Do You Compare? Benchmarking Against Peers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+
+<!--   <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/item.css">
+
 </head>
 
 <style>
 
-.container{
+/*.container{
   width: 1160px;
   margin: auto;
-}
 
 img{
   object-fit: cover;
@@ -63,36 +69,62 @@ aside{
     text-align: center;
   }
 }
+*/
 </style>
 
 
 <body>
-  <header>
-    <nav>
-  <input type="checkbox" id="check">
-  <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <label class="logo">
-    <a href="../">
-      <img src="/assets/img/logo.png" alt="crow insight logo"/>
-    </a>
-  </label>
-  <ul>
-    <li><a href="../">Home</a></li>
-    <li><a href="/portfolio/">Our Work</a></li>
-    <li><a href="/howwework/">Collaborate</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/contact/">Contact</a></li>
+  
+  <nav class="navbar">
+<span class="navbar-toggle" id="js-navbar-toggle">
+    <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> -->
+</span>
+  <a href="../" class="logo">
+    <img src="/assets/img/logo.png" alt="crow insight logo"/>
+  </a>
+  <ul class="main-nav" id="js-menu">
+    <li>
+      <a href="../"class="nav-links">Home</a>
+    </li>
+    <li>
+      <a href="/portfolio/" class="nav-links">Our Work</a>
+    </li>
+    <li>
+      <a href="/howwework/" class="nav-links">Collaborate</a>
+    </li>
+    <li>
+      <a href="/about/" class="nav-links">About</a>
+    </li>
+    <li>
+      <a  href="/contact/" class="nav-links">Contact</a>
+    </li>
   </ul>
 </nav>
+<script src="../js/navbar.js"></script>
 
-  </header>
+  <div class="container">
+    <div class="row">
+      <h2>How Do You Compare? Benchmarking Against Peers</h2>
+    </div>
+    <div class="row">
+      <div class="seven columns">
+        <img src="/assets/img/dashboard.png" alt="" class="u-full-width">
+      </div>
+      <div class="five columns">
+        <p>The <strong>Association of Schools and Programs of Public Health</strong> has always prepared customized reports for its members upon request. To make efficient use of limited resources, ASPPH asked us to create a dashboard allowing members to do their own analyses of trends in public health education.</p>
+
+<p>Our design employed careful color usage, multiple graphs, and filters. In the example, data for the user’s institution is in red, with that of selected peers in blue.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!--
   <div class="container">
   <h2>How Do You Compare? Benchmarking Against Peers</h2>
   <div class="row">
   <main>
-      <img src="/assets/img/ASPPH-Faculty-Dashboard.png" alt="" class="featured-image-post">
+      <img src="/assets/img/dashboard.png" alt="" class="featured-image-post">
   </main>
   <aside>
     <p>The <strong>Association of Schools and Programs of Public Health</strong> has always prepared customized reports for its members upon request. To make efficient use of limited resources, ASPPH asked us to create a dashboard allowing members to do their own analyses of trends in public health education.</p>
@@ -102,19 +134,7 @@ aside{
   </aside>
 </div>
 </div>
-<style>
-  @media screen and (max-width: 650px) {
-    footer img {
-      width: 400px;
-      height: 200px;
-      margin: auto;
-      object-fit: cover;
-    }
-</style>
-
-<footer>
-  <img src="/assets/img/footer.png" alt="">
-</footer>
+-->
 
 </body>
 </html>
