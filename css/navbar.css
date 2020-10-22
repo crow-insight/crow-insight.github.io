@@ -6,7 +6,6 @@ nav {
   background-color: white;
   z-index: 2;
   box-shadow: 0px 2px 3px #ccc;
-  margin-bottom: 20px;
 }
 
 .navbar {
@@ -24,7 +23,7 @@ nav {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: black;
+  color: #0D226B;
 }
 
 .main-nav li {
@@ -44,7 +43,7 @@ nav {
   top: 20px;
   right: 20px;
   cursor: pointer;
-  color: black;
+  color: #0D226B;
   font-size: 24px;
 }
 

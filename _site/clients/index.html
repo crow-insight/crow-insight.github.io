@@ -2,48 +2,58 @@
 
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Clients</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/banner.css">
+
 </head>
 
 <body>
-  <header>
-    <nav>
-  <input type="checkbox" id="check">
-  <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <label class="logo">
-    <a href="../">
-      <img src="/assets/img/logo.png" alt="crow insight logo"/>
-    </a>
-  </label>
-  <ul>
-    <li><a href="../">Home</a></li>
-    <li><a href="/portfolio/">Our Work</a></li>
-    <li><a href="/howwework/">Collaborate</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/contact/">Contact</a></li>
+
+  <nav class="navbar">
+<span class="navbar-toggle" id="js-navbar-toggle">
+    <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> -->
+</span>
+  <a href="../" class="logo">
+    <img src="/assets/img/logo.png" alt="crow insight logo"/>
+  </a>
+  <ul class="main-nav" id="js-menu">
+    <li>
+      <a href="../"class="nav-links">Home</a>
+    </li>
+    <li>
+      <a href="/portfolio/" class="nav-links">Our Work</a>
+    </li>
+    <li>
+      <a href="/howwework/" class="nav-links">Collaborate</a>
+    </li>
+    <li>
+      <a href="/about/" class="nav-links">About</a>
+    </li>
+    <li>
+      <a  href="/contact/" class="nav-links">Contact</a>
+    </li>
   </ul>
 </nav>
+<script src="../js/navbar.js"></script>
 
-    <div class="hero-image">
-      <img src="/assets/img/clientsbanner.png" alt="" class="featured-image-post">
-      <div class="centered">
-        <h1>Clients</h1>
-        <p>We are proud to work across diverse fields and with a wide variety of clients, all of whom strive to serve the public interest. Crow Insight comes together with clients to use data as a transformative element in achieving client goals. Click any logo below to visit the client’s website.</p>
-      </div>
+  <div class="banner-container">
+    <div class="banner-text-container">
+      <h1>Clients</h1>
+      <p>We are proud to work across diverse fields and with a wide variety of clients, all of whom strive to serve the public interest. Crow Insight comes together with clients to use data as a transformative element in achieving client goals. Click any logo below to visit the client’s website.</p>
     </div>
-  </header>
-  <div class="wrapper">
-    <style>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,208C672,192,768,160,864,149.3C960,139,1056,149,1152,176C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+  <style>
   /* Style the tab */
 .tab {
   overflow: hidden;
@@ -123,7 +133,7 @@
 }
 </script>
 
-  </div>
+
 
 </body>
 </html>

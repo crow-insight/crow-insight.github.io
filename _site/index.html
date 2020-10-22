@@ -2,259 +2,104 @@
 
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Illuminate Your Data</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/banner.css">
+
 </head>
 
 <body>
-  <header>
-    <nav>
-  <input type="checkbox" id="check">
-  <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <label class="logo">
-    <a href="../">
-      <img src="/assets/img/logo.png" alt="crow insight logo"/>
-    </a>
-  </label>
-  <ul>
-    <li><a href="../">Home</a></li>
-    <li><a href="/portfolio/">Our Work</a></li>
-    <li><a href="/howwework/">Collaborate</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/contact/">Contact</a></li>
+
+  <nav class="navbar">
+<span class="navbar-toggle" id="js-navbar-toggle">
+    <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> -->
+</span>
+  <a href="../" class="logo">
+    <img src="/assets/img/logo.png" alt="crow insight logo"/>
+  </a>
+  <ul class="main-nav" id="js-menu">
+    <li>
+      <a href="../"class="nav-links">Home</a>
+    </li>
+    <li>
+      <a href="/portfolio/" class="nav-links">Our Work</a>
+    </li>
+    <li>
+      <a href="/howwework/" class="nav-links">Collaborate</a>
+    </li>
+    <li>
+      <a href="/about/" class="nav-links">About</a>
+    </li>
+    <li>
+      <a  href="/contact/" class="nav-links">Contact</a>
+    </li>
   </ul>
 </nav>
+<script src="../js/navbar.js"></script>
 
-    <div class="hero-image">
-      <img src="/assets/img/homebanner.png" alt="" class="featured-image-post">
-      <div class="centered">
-        <h1>Illuminate Your Data</h1>
-        <p>Crow Insight is an award-winning boutique information design and illustration firm. We are dedicated to helping you illuminate data in the service of creative, evidence-based decisions.</p>
-      </div>
-    </div>
-  </header>
-  <div class="wrapper">
-    <style>
-
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-top:80px;
-    margin-bottom: 50px;
-  }
-
-  .box img {
-    width: 350px;
-  }
-
-  .row {
-    display: flex;
-    text-align: center;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  .box {
-  flex: 1;
-  margin: 5px;
-  padding: 5px;
-
-  }
-
-
-  .box:first-child{
-  margin-left: 0;
-  }
-
-  .box:last-child{
-  margin-right: 0;
-  }
-
-  .tag {
-  margin-top:20px;
-  }
-
-.col {
-  flex: 1;
-  margin: 5px;
-  padding: 5px;
-}
-
-.col p{
-  padding-top: 70px;
-  width: 80%;
-  text-align: left;
-  margin: auto;
-  font-size: 18px;
-
-}
-.col img {
-  width: 600px;
-  height: 300px;
-  object-fit: cover;
-
-}
-
-.button {
-  background-color: #0D226B;
-  color: white;
-  border: 0;
-  width:100px;
-  height: 30px;
-  margin-top:40px;
-  font-size:12px;
-}
-
-.icon {
- display: flex;
- flex-flow: row wrap;
- width:100%;
- margin: auto;
-
-}
-
-.graphic {
-  flex: 1;
-  text-align: center;
-  padding-top: 40px;
-}
-
-.graphic img {
-  width: 75px;
-  padding-bottom: 20px;
-}
-
-.about p{
-  width:750px;
-  text-align: center;
-  margin:auto;
-  font-size: 18px;
-}
-@media (max-width: 1200px){
- .row {
-   flex-direction: column;
- }
-
- @media (max-width: 600px){
- .icon{
-  flex-flow: row wrap;
-  flex-direction: column;
-  width: 350px;
-
- }
-
- .col {
-   text-align: center;
- }
-
-  .col img {
-    width: 350px;
-  }
-
-  .col p{
-    margin-top: -50px
-
-  }
-
-  .about p{
-    width: 350px;
-  }
-
-}
-
-</style>
-<section class="container">
-<div class="wave">
-  <h2>Featured Project</h2>
-  <div class="row">
-    <div class="box">
-      <img src="/assets/img/placeholder.jpg" alt="">
-      <h3>Project Title</h3>
-      <div class="tag">
-      <a href="url">Relevant Tag</a>
-      <a href="url">Relevant Tag</a>
-      <a href="url">Relevant Tag</a>
-    </div>
-    </div>
-    <div class="box">
-      <img src="/assets/img/placeholder.jpg" alt="">
-      <h3>Project Title</h3>
-      <div class="tag">
-      <a href="url">Relevant Tag</a>
-      <a href="url">Relevant Tag</a>
-      <a href="url">Relevant Tag</a>
-      </div>
-    </div>
-    <div class="box">
-      <img src="/assets/img/placeholder.jpg" alt="">
-      <h3>Project Title</h3>
-      <div class="tag">
-      <a href="url">Relevant Tag</a>
-      <a href="url">Relevant Tag</a>
-      <a href="url">Relevant Tag</a>
-      </div>
+  <div class="banner-container">
+    <div class="banner-text-container">
+      <h1>Illuminate Your Data</h1>
+      <p>Crow Insight is an award-winning boutique information design and illustration firm. We are dedicated to helping you illuminate data in the service of creative, evidence-based decisions.</p>
     </div>
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,208C672,192,768,160,864,149.3C960,139,1056,149,1152,176C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+  <link rel="stylesheet" href="/css/index.css">
+<div class="container">
+	<div class="row">
+		<h2>Featured Projects</h2>
+	</div>
+	<div class="row">
+		<div class="one-half column">
+			<img class="u-max-full-width" src="/assets/img/placeholder.jpg" alt="">
+			<h3>Project Title</h3>
+			<div class="tag-list">
+				<a href="url">Relevant Tag</a>
+				<a href="url">Relevant Tag</a>
+				<a href="url">Relevant Tag</a>
+	      	</div>
+		</div>
+		<div class="one-half column">
+			<img class="u-max-full-width" src="/assets/img/placeholder.jpg" alt="">
+			<h3>Project Title</h3>
+			<div class="tag-list">
+				<a href="url">Relevant Tag</a>
+				<a href="url">Relevant Tag</a>
+				<a href="url">Relevant Tag</a>
+	      	</div>
+		</div>
+	</div>
 </div>
-</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,64L80,96C160,128,320,192,480,186.7C640,181,800,107,960,80C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+<div class="wave-wrapper">
+	<div class="container">
+		<div class="row">
+			<h2>Training and Workshops</h2>
+		</div>
+		<div class="row">
+			<div class="seven columns">
+				<img class="u-max-full-width" src="/assets/img/Website_Training_Sketch.png" alt="">
+			</div>
+			<div class="five columns">
+				<p>Good data visualization leverages our strengths in visual perception, mitigates our cognitive weaknesses,
+		        and complements our existing analytical approaches.
+		        We empower people to apply these concepts to their own visual analyses.</p>
+		        <button class="button">Learn More</button>
+			</div>
+		</div>
+	</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,250.7C384,213,480,139,576,117.3C672,96,768,128,864,170.7C960,213,1056,267,1152,288C1248,309,1344,299,1392,293.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
-
-
-<section class="container">
-  <h2 style="margin-top: 200px;">Training and Workshops</h2>
-  <div class="row">
-    <div class="col">
-      <img src="/assets/img/Website_Training_Sketch.png" alt="">
-    </div>
-    <div class="col">
-      <p>Good data visualization leverages our strengths in visual perception, mitigates our cognitive weaknesses,
-        and complements our existing analytical approaches.
-        We empower people to apply these concepts to their own visual analyses.</p>
-        <button class="button">Learn More</button>
-    </div>
-    </div>
-</section>
-
-<section class="container">
-  <h2 style="margin-top: 200px;">About Us</h2>
-  <div class="about">
-      <p>We are skilled data storytellers. At Crow Insight, we believe that creativity and innovation are fueled by adapting solutions
-        from one arena for the pressing problem of another. That’s why we read widely, tackle conundrums, collaborate with clients and steer clear of preconceived solutions.
-        We bring this multidisciplinary thinking to every product we develop. </p>
-      <div>
-        <h3 style="text-align: center; margin:auto; padding-top: 50px;">Our Services</h3>
-        <div class="icon">
-        <div class="graphic">
-          <img src="/assets/img/data.png" alt="">
-          <h4>Data </br>Communication</h4>
-        </div>
-        <div class="graphic">
-          <img src="/assets/img/visual.png" alt="">
-          <h4>Visual Explanation </br> and illustration</h4>
-        </div>
-        <div class="graphic">
-          <img src="/assets/img/training.png" alt="">
-          <h4>Advanced Data </br>Illumination Training</h4>
-        </div>
-        <div class="graphic">
-          <img src="/assets/img/dashboard.png" alt="">
-          <h4>Information </br>Dashboards</h4>
-        </div>
-      </div>
-      </div>
-  </div>
-</section>
-
-  </div>
 
 </body>
 </html>

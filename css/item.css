@@ -7,3 +7,7 @@ h2 {
 	font-size: calc(3.6vw +  1rem);
  	color: #0D226B;
 }*/
+
+h2 {
+	padding-top: 2rem;
+}

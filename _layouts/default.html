@@ -2,31 +2,34 @@
 
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{page.title}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/banner.css">
+
 </head>
 
 <body>
-  <header>
-    {% include nav.html %}
-    <div class="hero-image">
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
-      <div class="centered">
-        <h1>{{page.title}}</h1>
-        <p>{{page.excerpt}}</p>
-      </div>
+
+  {% include navbar.html %}
+
+  <div class="banner-container">
+    <div class="banner-text-container">
+      <h1>{{page.title}}</h1>
+      <p>{{page.excerpt}}</p>
     </div>
-  </header>
-  <div class="wrapper">
-    {{content}}
   </div>
-{% include footer.html %}
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,208C672,192,768,160,864,149.3C960,139,1056,149,1152,176C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+  {{content}}
+
+
 </body>
 </html>
