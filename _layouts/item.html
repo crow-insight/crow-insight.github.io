@@ -9,69 +9,12 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
 
-<!--   <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="stylesheet" href="/css/footer.css">
   <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/banner.css">
   <link rel="stylesheet" href="/css/item.css">
 
 </head>
-
-<style>
-
-/*.container{
-  width: 1160px;
-  margin: auto;
-
-img{
-  object-fit: cover;
-}
-h2{
-  margin-top: 50px;
-  font-size: 72px;
-  color: #0D226B;
-}
-
-main{
-  float: left;
-  width: 65%;
-}
-
-aside{
-  float:right;
-  width:30%;
-
-}
-
-.row {
-  margin-top:50px;
-}
-
-@media (max-width: 650px){
-
-  .container{
-    width: 400px;
-    margin: auto;
-  }
-  main{
-    float: none;
-    width: 400px;
-    margin-bottom: 40px;
-  }
-
-  aside{
-    float: none;
-    width: 350px;
-    margin: auto;
-  }
-
-  h2 {
-    font-size: 50px;
-    width: 400px;
-    text-align: center;
-  }
-}
-*/
-</style>
-
 
 <body>
   
@@ -91,19 +34,6 @@ aside{
     </div>
   </div>
 
-  <!--
-  <div class="container">
-  <h2>{{page.title}}</h2>
-  <div class="row">
-  <main>
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
-  </main>
-  <aside>
-    {{content}}
-  </aside>
-</div>
-</div>
--->
-
+  {% include footer.html %}
 </body>
 </html>
