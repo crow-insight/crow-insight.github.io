@@ -55,10 +55,6 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,208C672,192,768,160,864,149.3C960,139,1056,149,1152,176C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
   <style>
-
-  .centered{
-    width:800px;
-  }
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -76,7 +72,6 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #0D226B;
   color: #F2F7FF;
-  padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -87,45 +82,24 @@ input[type=submit]:hover {
   background-color: #FDBE34;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  margin-top: 50px;
-  color: #0D226B;
-}
-
-@media screen and (max-width: 650px) {
-  .centered {
-    width: 350px;
-  }
-}
 
 
 </style>
 
 
 <div class="container">
-  <form action="action_page.php">
+  <form >
 
-    <label for="fname">Full Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label >Full Name</label>
+    <input type="text" placeholder="Your name..">
 
-    <label for="lname">Email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Where did you hear about us?</label>
-    <select id="country" name="country">
-      <option value="australia">LinkedIn</option>
-      <option value="canada">...</option>
-      <option value="usa">Other</option>
-    </select>
+    <label >Email</label>
+    <input type="text" placeholder="Your email..">
 
     <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="How can we help?" style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit">
 
   </form>
 </div>

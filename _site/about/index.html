@@ -54,283 +54,88 @@
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f7ff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,208C672,192,768,160,864,149.3C960,139,1056,149,1152,176C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
-  <style>
+  <link rel="stylesheet" href="/css/about.css">
 
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-top:80px;
-    margin-bottom: 50px;
-  }
-
-  .icon {
-   display: flex;
-   flex-flow: row wrap;
-   width:1350px;
-   margin: auto;
-   text-align: center;
-   margin-left:-120px;
-  }
-
-  .graphic {
-    flex: 1;
-    text-align: center;
-    padding-top: 40px;
-
-  }
-
-  .graphic img {
-    width: 75px;
-    padding-bottom: 20px;
-  }
-
-  .graphic p{
-    padding-top:20px;
-  }
-
-  .row {
-    display: flex;
-    text-align: center;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  .col {
-    flex: 1;
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .col p{
-    padding-top: 20px;
-    width: 80%;
-    text-align: left;
-    margin: auto;
-    font-size: 18px;
-
-  }
-  .col img {
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
-
-  }
-  /* Three columns side by side */
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-
-  .team h3 {
-    padding-top:20px;
-
-  }
-
-  .team p{
-    padding-top:10px;
-  }
-
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-
-  /* Add some shadows to create a card effect */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 0 16px;
-  }
-
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .title {
-    color: grey;
-  }
-
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-
-  .button:hover {
-    background-color: #555;
-  }
-
-  .dot {
-  height: 200px;
-  width: 200px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  }
-
-  #group2{
-  margin-top:50px;
-  }
-
-  @media (max-width: 600px){
-    .icon{
-     flex-flow: row wrap;
-     flex-direction: column;
-     width: 350px;
-     margin: auto;
-
-    }
-
-    .col {
-      text-align: center;
-    }
-
-     .col img {
-       width: 330px;
-     }
-
-     .col p{
-       width: 330px;
-       text-align: center;
-     }
-
-
-
- .row {
-   flex-flow: row wrap;
-   flex-direction: column;
-   width: 350px;
-   margin: auto;
- }
-
- .dot {
-   margin-top: 40px;
- }
-}
-
-</style>
-
-<section class="container">
-  <h2>Our Core Principles</h2>
-  <div class="icon">
-  <div class="graphic">
-    <img src="/assets/img/visual.png" alt="">
-    <h3>Integrity</h3>
-    <p>Truth is elusive, but we pursue it.</br> We strive to deliver accurate, </br>meaningful and honest products.</p>
-  </div>
-  <div class="graphic">
-    <img src="/assets/img/visual.png" alt="">
-    <h3>Partnership</h3>
-    <p>The best solutions will arise by</br> mixing our expertise with yours. </br>We suggest starting consulting </br>engagements with training, to </br>strengthen our collaboration.</p>
-  </div>
-  <div class="graphic">
-    <img src="/assets/img/visual.png" alt="">
-    <h3>Communication</h3>
-    <p>We do our best to anticipate your</br> needs for information, and </br>reach out with appropriate</br> detail and frequency.</p>
-  </div>
-  <div class="graphic">
-    <img src="/assets/img/visual.png" alt="">
-    <h3>Cost Effectiveness</h3>
-    <p>We are accustomed to tight budgets. If we</br> think of a lower-cost way to achieve your</br> goals, while still maintaining quality,</br> we will suggest it.</p>
-  </div>
-</div>
-</section>
-
-<section class="container">
-  <h2 style="margin-top: 200px;">Our Story</h2>
+<div class="container">
   <div class="row">
-    <div class="col">
-      <img src="/assets/img/Website_OurStory_Sketch.png" alt="">
+    <h2>Our Core Principles</h2>
+  </div>
+  <div class="row">
+    <div class="six columns">
+      <img class="u-max-full-width" src="/assets/img/visual.png" alt="">
+      <h3>Integrity</h3>
+      <p>Truth is elusive, but we pursue it. We strive to deliver accurate, meaningful and honest products.</p>
     </div>
-    <div class="col">
+    <div class="six columns">
+      <img class="u-max-full-width" src="/assets/img/visual.png" alt="">
+      <h3>Partnership</h3>
+      <p>The best solutions will arise by mixing our expertise with yours. We suggest starting consulting engagements with training, to strengthen our collaboration.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+      <img class="u-max-full-width" src="/assets/img/visual.png" alt="">
+      <h3>Communication</h3>
+      <p>We do our best to anticipate your needs for information, and reach out with appropriate detail and frequency.</p>
+    </div>
+    <div class="six columns">
+      <img class="u-max-full-width" src="/assets/img/visual.png" alt="">
+      <h3>Cost Effectiveness</h3>
+      <p>We are accustomed to tight budgets. If we think of a lower-cost way to achieve your goals, while still maintaining quality, we will suggest it.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <h2>Our Story</h2>
+  </div>
+  <div class="row">
+    <div class="four columns">
+      <img class="u-max-full-width" src="/assets/img/Website_OurStory_Sketch.png" alt="">
+    </div>
+    <div class="eight columns">
       <p>Crow Insight was founded in 2014 to help organizations aiming to make a lasting impact on the world. Our founder Mike Crow had been working in program development and evaluation, helping agencies set goals and develop key performance indicators. He knew these organizations could make better decisions and more easily share their stories if they knew how to visualize and convey their data, and he knew he could help them. Since our founding, we've grown into a small multidisciplinary team with remote offices around the United States. </p>
-
     </div>
-    </div>
-</section>
+  </div>
 
-<section class="container">
-  <h2>Meet Our Team</h2>
   <div class="row">
-    <div class="team">
+    <h2>Meet Our Team</h2>
+  </div>
+  <div class="row">
+    <div class="four columns">
       <span class="dot"></span>
       <h3>Jane Doe</h3>
       <p>Job Title</p>
     </div>
-    <div class="team">
-      <span class="dot"></span>
-      <h3>John Doe</h3>
-      <p>Job Title</p>
-    </div>
-    <div class="team">
+    <div class="four columns">
       <span class="dot"></span>
       <h3>Jane Doe</h3>
       <p>Job Title</p>
     </div>
-    <div class="team">
+    <div class="four columns">
       <span class="dot"></span>
-      <h3>John Doe</h3>
+      <h3>Jane Doe</h3>
       <p>Job Title</p>
     </div>
   </div>
-  <div id="group2">
   <div class="row">
-    <div class="team">
+    <div class="four columns">
       <span class="dot"></span>
       <h3>Jane Doe</h3>
       <p>Job Title</p>
     </div>
-    <div class="team">
-      <span class="dot"></span>
-      <h3>John Doe</h3>
-      <p>Job Title</p>
-    </div>
-    <div class="team">
+    <div class="four columns">
       <span class="dot"></span>
       <h3>Jane Doe</h3>
       <p>Job Title</p>
     </div>
-    <div class="team">
+    <div class="four columns">
       <span class="dot"></span>
-      <h3>John Doe</h3>
+      <h3>Jane Doe</h3>
       <p>Job Title</p>
-    </div>
     </div>
   </div>
-</section>
 
-<section class="container">
-  <h2 style="margin-top:130px; font-size: 26px;">We are always looking for skilled people to join our team. <span style="color: #FDBE34">Get in touch!</span></h2>
-</section>
-
-<section class="container">
-  <h2 style="margin-top: 200px;">Working At Crow Insight</h2>
-  <div class="row">
-    <div class="col">
-      <img src="/assets/img/Website_WorkingAt_Sketch.png" alt="">
-    </div>
-    <div class="col">
-      <p>As a team of curious, creative, flexible collaborators, we value the individual perspective each team member brings. We constantly solicit employee suggestions on ways to enhance quality, teamwork and efficiency. We invest in research and professional development, allowing even our most junior team members to be more deeply involved in proposing and developing effective client solutions. </p>
-
-    </div>
-    </div>
-</section>
+</div>
 
 
 
