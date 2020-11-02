@@ -8,11 +8,8 @@ h6
 	color: #0D226B;
 }
 
-h2 {
-	padding-top: 2rem;
-}
-
-
-p {
-	font-size: 1.5em;
+h1 {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	font-weight: 700;
 }
