@@ -1,3 +1,8 @@
 .tag-list {
 	display: flex;
 }
+
+#home {
+	border-bottom: 1px solid #0D226B;
+	padding-bottom: 3px;
+}

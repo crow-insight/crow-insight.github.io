@@ -1,7 +1,12 @@
-  .dot {
-    height: 200px;
-    width: 200px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-  }
+.dot {
+	height: 200px;
+	width: 200px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#about {
+	border-bottom: 1px solid #0D226B;
+	padding-bottom: 3px;
+}

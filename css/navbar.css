@@ -85,7 +85,7 @@ nav {
 
   .logo:hover,
   .nav-links:hover {
-    color: darkgrey;
+    opacity: .9;
   }
 }
 
