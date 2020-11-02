@@ -3,6 +3,7 @@
 	padding-bottom: 3px;
 }
 
-.howwework-content .row {
+.howwework-content .row:nth-child(1),
+.howwework-content .row:nth-child(2) {
 	margin-bottom: 100px;
 }
