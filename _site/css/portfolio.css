@@ -2,3 +2,9 @@
 	border-bottom: 1px solid #0D226B;
 	padding-bottom: 3px;
 }
+
+.item {
+	border: 1px solid lightgrey;
+	padding: 15px;
+	margin-bottom: 50px;
+}

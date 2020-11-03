@@ -5,8 +5,27 @@ image: "/assets/img/clientsbanner.png"
 permalink: "/clients/"
 excerpt: "We are proud to work across diverse fields and with a wide variety of clients, all of whom strive to serve the public interest. Crow Insight comes together with clients to use data as a transformative element in achieving client goals. Click any logo below to visit the client’s website."
 ---
+<link rel="stylesheet" href="/css/clients.css">
+<div class="container">
+	<div class="row filter-button-wrapper">
+		<div class="u-pull-left">
+			<button>All</button>
+		</div>
+		<div class="u-pull-left">
+			<button>Organization Type</button>
+		</div>
+		<div class="u-pull-left">
+			<button>Client Focus</button>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="filters-container">
+</div>
+
 <div class="container" id="clients-container">
 </div>
 
 <script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../js/clients.js"></script>
