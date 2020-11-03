@@ -34,3 +34,8 @@
 	color: #646468;
 	font-weight: 400;
 }
+
+.filter button:hover,
+.filter-button-wrapper button:hover {
+	color: black;
+}

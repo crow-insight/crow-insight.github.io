@@ -5,8 +5,29 @@ image: "/assets/img/portfoliobanner.png"
 permalink: "/portfolio/"
 excerpt: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam."
 ---
+
 <link rel="stylesheet" href="/css/portfolio.css">
-<div class="container" id="portfolio-container"></div>
+<div class="container">
+	<div class="row filter-button-wrapper">
+		<div class="u-pull-left">
+			<button>All</button>
+		</div>
+		<div class="u-pull-left">
+			<button>Subject Matter</button>
+		</div>
+		<div class="u-pull-left">
+			<button>Technical Capabilities</button>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="filters-container">
+</div>
+
+<div class="container" id="display-container">
+</div>
 
 <script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../js/portfolio.js"></script>
+<script src="../js/filter_display.js"></script>
