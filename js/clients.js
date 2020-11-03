@@ -154,8 +154,6 @@ d3.selectAll(".filter-button-wrapper button")
 				}
 			}
 
-			console.log("Drawer Click - ", curr_filters);
-
 			let filter_rows = filters.selectAll(".filter-row")
 				.data(metadata_nested)
 				.enter()
@@ -167,12 +165,9 @@ d3.selectAll(".filter-button-wrapper button")
 					for (let i = 0; i < d.length; i ++) {
 						let selected_style = " style='font-weight:700;color:black;' "
 
-						console.log(curr_filters, d[i].PlainLanguage);
 						if (!curr_filters.includes(d[i].PlainLanguage)) {
-							console.log("not in - ", d[i].PlainLanguage);
 							selected_style = ""
 						}
-						console.log("selected_style is ", selected_style);
 
 						html_string = html_string + "<div class='"+ filter_column_class +" columns filter'>" +
 						"<button" + selected_style + ">" + d[i].PlainLanguage + "</button>" +
@@ -187,7 +182,6 @@ d3.selectAll(".filter-button-wrapper button")
 
 					let button_text = $(this).text();
 
-					console.log("Filter Click - ", curr_filters);
 
 					if (curr_filters.includes(button_text)) {
 
