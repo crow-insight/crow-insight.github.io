@@ -1,30 +1,30 @@
-﻿client,image_name,nonprofits_and_foundations,member_organizations,government,private_sector,environment,energy,public_health,education,other
-AAVMC,,1,1,,,,,,1,
-American University,,1,,,,,,,1,
-AMI,,1,1,,,,,,1,
-Appian,,,,,1,,,,,1
-ASPPH,,1,1,,,,,,1,
-ASTHO,,1,1,,,,,1,,
-ATD,,1,1,,,,,,1,
-Avanti Corporation,,,,,1,1,,1,,
-CADMUS,,,,,1,1,1,,,
-Civitas Learning,,,,,1,,,,1,
-CRC,,,,,1,1,,,,1
-DAI,,,,,1,,,,,1
-De Beaumont Foundation,,1,,,,,,1,,
-ECOS,,1,1,,,1,,,,
-eHealth Africa,,1,,,,,,1,,
-EPA,,,,1,,1,,1,,
-EPRI,,1,1,,,,1,,,
-Eversource Energy,,,,,1,,1,,,
-FDA,,,,1,,,,1,,
-IEc,,,,,1,1,,,,
-Kate Hastings Consulting,,,,,1,1,,1,1,
-NASPA,,1,1,,,,,,1,
-ND-GAIN,,1,,,,1,,,,
-NEWMOA,,1,1,,,1,,,,
-PBS,,1,1,,,,,,,1
-RVPHTC,,1,,,,,,1,,
-Sova Solutions,,,,,1,,,,1,
-VDOT,,,,1,,,,,,1
-Verra,,1,,,,1,,,,
+﻿client,permalink,image_name,nonprofits_and_foundations,member_organizations,government,private_sector,environment,energy,public_health,education,other
+AAVMC,,,1,1,,,,,,1,
+American University,,,1,,,,,,,1,
+AMI,,,1,1,,,,,,1,
+Appian,,,,,,1,,,,,1
+ASPPH,,,1,1,,,,,,1,
+ASTHO,,,1,1,,,,,1,,
+ATD,,,1,1,,,,,,1,
+Avanti Corporation,,,,,,1,1,,1,,
+CADMUS,,,,,,1,1,1,,,
+Civitas Learning,,,,,,1,,,,1,
+CRC,,,,,,1,1,,,,1
+DAI,,,,,,1,,,,,1
+De Beaumont Foundation,,,1,,,,,,1,,
+ECOS,,,1,1,,,1,,,,
+eHealth Africa,,,1,,,,,,1,,
+EPA,,,,,1,,1,,1,,
+EPRI,,,1,1,,,,1,,,
+Eversource Energy,,,,,,1,,1,,,
+FDA,,,,,1,,,,1,,
+IEc,,,,,,1,1,,,,
+Kate Hastings Consulting,,,,,,1,1,,1,1,
+NASPA,,,1,1,,,,,,1,
+ND-GAIN,,,1,,,,1,,,,
+NEWMOA,,,1,1,,,1,,,,
+PBS,,,1,1,,,,,,,1
+RVPHTC,,,1,,,,,,1,,
+Sova Solutions,,,,,,1,,,,1,
+VDOT,,,,,1,,,,,,1
+Verra,,,1,,,,1,,,,
