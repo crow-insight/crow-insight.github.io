@@ -109,6 +109,23 @@ svg:not(:root).svg-inline--fa {
   width: 120px;
 }
 
+.caret {
+  margin-left: 15px;
+  float: right;
+  position: absolute;
+  left: 90%;
+  top: 45%;
+
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent
+
+}
+
 
 
 
