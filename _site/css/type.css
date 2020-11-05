@@ -1,0 +1,37 @@
+:root {
+  --mainColor: #c7af0e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+	color: #0D226B;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+
+.container a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+  cursor: pointer;
+}
+
+.container a:hover {
+  background-size: 4px 50px;
+}

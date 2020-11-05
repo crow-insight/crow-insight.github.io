@@ -85,7 +85,7 @@ nav {
 
   .logo:hover,
   .nav-links:hover {
-    opacity: .9;
+    color: #c7af0e;
   }
 }
 
