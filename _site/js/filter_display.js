@@ -106,6 +106,7 @@ function createDrawer() {
 	d3.selectAll(".filter-button-wrapper button")
 		.on("click", function(d) {
 			let button_text = $(this).text();
+			let filter_selection = d3.select(this);
 			let drawer_is_open = (d3.select("#filters-container").style("opacity") == 1)
 
 			if ((button_text != curr_filter_category && button_text != "All") || (button_text == curr_filter_category && drawer_is_open == false && button_text != "All") ) {
@@ -165,7 +166,6 @@ function createDrawer() {
 
 						let button_text = $(this).text();
 
-
 						if (curr_filters.includes(button_text)) {
 
 							let index = curr_filters.indexOf(button_text);
@@ -179,6 +179,30 @@ function createDrawer() {
 							curr_filters.push(button_text);
 							d3.select(this).style("font-weight", 700).style("color", "black");
 						}
+
+						let available_filters_plain_language = d3.map(available_filters, function(d) { return d.PlainLanguage; });
+						let includes_a_selected_filter = false
+						for (let i = 0; i < curr_filters.length; i++) {
+							let index = available_filters_plain_language.indexOf(curr_filters[i]);
+							if (index > -1) {
+								includes_a_selected_filter = true;
+							}
+						}
+
+						if (includes_a_selected_filter == true) {
+							filter_selection.style("font-weight", 700).style("color", "black");
+						}
+						else {
+							filter_selection.style("font-weight", 400).style("color", default_font_color);	
+						}
+
+						if (curr_filters.length > 0) {
+							d3.select("#all-filter").style("font-weight", 400).style("color", default_font_color);
+						}
+						else {
+							d3.select("#all-filter").style("font-weight", 700).style("color", "black");	
+						}
+
 						createDisplay(curr_filters);
 
 					});
@@ -192,6 +216,9 @@ function createDrawer() {
 				let filters = d3.select("#filters-container").style("opacity", 0);
 				d3.selectAll(".filter-row").remove();
 				curr_filter_category = button_text
+
+				d3.selectAll(".filter-button-wrapper button").style("font-weight", 400).style("color", default_font_color);
+				filter_selection.style("font-weight", 700).style("color", "black");
 
 				curr_filters = []
 				createDisplay(curr_filters);
