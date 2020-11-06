@@ -33,8 +33,16 @@ function createBlocks(rows) {
 		.html(function(d) {
 			let html_string = ""
 			for (let i = 0; i < d.length; i ++) {
+
+				let image_name = d[i]["image_name"];
+
+				// For ones that we still need to complete
+				if (image_name == "") {
+					image_name = "modernreport.png"
+				}
+
 				html_string = html_string + "<div class='"+ block_column_class +" columns block'>" +
-							"<img class='u-max-full-width' src='/assets/img/modernreport.png' >" +
+							"<img class='u-max-full-width' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
 							"<p><strong>" + d[i][attribute_name] + "</strong>" + "<br>" + 
 							getTags(d[i]) + "</p>" +
 							"</div>";
@@ -126,15 +134,15 @@ function createDrawer() {
 
 				let metadata_nested = [];
 				for (let i = 0; i < available_filters.length; i++) {
-					if (i % blocks_per_row == 0) {
+					if (i % filters_per_row == 0) {
 						metadata_nested.push([available_filters[i]]);
 					}
 					else {
 						let j = i;
-						while (j % blocks_per_row != 0) {
+						while (j % filters_per_row != 0) {
 							j = j - 1;
 						}
-						metadata_nested[j/blocks_per_row].push(available_filters[i]);
+						metadata_nested[j/filters_per_row].push(available_filters[i]);
 					}
 				}
 
