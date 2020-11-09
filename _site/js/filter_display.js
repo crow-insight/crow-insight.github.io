@@ -19,6 +19,15 @@ function getTags(d) {
 	return tag_string;
 }
 
+function getPermalink(d, i) {
+	if (img_folder == "Client") {
+		return d[i]["permalink"];
+	}
+	else{
+		return "../" + d[i]["permalink"];
+	}
+}
+
 function createBlocks(rows) {
 	let display = d3.select("#display-container")
 		.style("opacity", 0);
@@ -41,11 +50,11 @@ function createBlocks(rows) {
 					image_name = "modernreport.png"
 				}
 
-				html_string = html_string + "<div class='"+ block_column_class +" columns block'>" +
-							"<img class='u-max-full-width' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
+				html_string = html_string + "<a target='_blank' href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
+							"<img class='u-max-full-width " + img_folder + "' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
 							"<p><strong>" + d[i][attribute_name] + "</strong>" + "<br>" + 
 							getTags(d[i]) + "</p>" +
-							"</div>";
+							"</a>";
 			}
 
 			return html_string;
@@ -114,6 +123,19 @@ function createDrawer() {
 	d3.selectAll(".filter-button-wrapper button")
 		.on("click", function(d) {
 			let button_text = $(this).text();
+			button_text = button_text.substring(0, button_text.length - 2)
+			let this_open_close = $(this).find('.open-close-icon');
+			let open_close_text = $(this).find('.open-close-icon').text().trim();
+
+			$(".open-close-icon").not(this_open_close).html(" +");
+
+			if (open_close_text == "+") {
+				d3.select(this).selectAll(".open-close-icon").html(" -");
+			}
+			else {
+				d3.select(this).selectAll(".open-close-icon").html(" +");
+			}
+
 			let filter_selection = d3.select(this);
 			let drawer_is_open = (d3.select("#filters-container").style("opacity") == 1)
 

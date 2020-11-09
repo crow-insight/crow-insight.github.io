@@ -17,7 +17,7 @@ h2 {
 }
 
 
-.container a {
+/*.container a {
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -34,4 +34,4 @@ h2 {
 
 .container a:hover {
   background-size: 4px 50px;
-}
+}*/

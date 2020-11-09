@@ -2,6 +2,13 @@
 	border: 1px solid lightgrey;
 	padding: 15px;
 	margin-top: 50px;
+	color: black;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+
+.block:hover {
+  color: #ccac00;
 }
 
 .filter-button-wrapper {
@@ -38,4 +45,9 @@
 .filter button:hover,
 .filter-button-wrapper button:hover {
 	color: black;
+}
+
+.Client {
+	height: 300px;
+	object-fit: contain;
 }

@@ -2,7 +2,7 @@ metadata = [];
 metadata_dict = {};
 
 blocks_per_row = 2;
-filters_per_row = 4;
+filters_per_row = 2;
 
 block_column_class = "six";
 filter_column_class = "six";

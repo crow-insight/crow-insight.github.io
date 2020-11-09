@@ -1,10 +1,10 @@
 metadata = [];
 metadata_dict = {};
 
-blocks_per_row = 4;
+blocks_per_row = 3;
 filters_per_row = 2;
 
-block_column_class = "three";
+block_column_class = "four";
 filter_column_class = "six";
 
 curr_filter_category = "All";
