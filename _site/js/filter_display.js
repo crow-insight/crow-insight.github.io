@@ -123,7 +123,8 @@ function createDrawer() {
 	d3.selectAll(".filter-button-wrapper button")
 		.on("click", function(d) {
 			let button_text = $(this).text();
-			button_text = button_text.substring(0, button_text.length - 2)
+			if (button_text != "All")
+				button_text = button_text.substring(0, button_text.length - 2)
 			let this_open_close = $(this).find('.open-close-icon');
 			let open_close_text = $(this).find('.open-close-icon').text().trim();
 
@@ -138,6 +139,8 @@ function createDrawer() {
 
 			let filter_selection = d3.select(this);
 			let drawer_is_open = (d3.select("#filters-container").style("opacity") == 1)
+
+			console.log("button text is ", button_text);
 
 			if ((button_text != curr_filter_category && button_text != "All") || (button_text == curr_filter_category && drawer_is_open == false && button_text != "All") ) {
 
@@ -237,9 +240,7 @@ function createDrawer() {
 
 					});
 
-				filters.transition()
-					.duration(500)
-					.style("opacity", 1);
+				filters.transition().duration(500).style("opacity", 1);
 			}
 			else if (button_text == "All" && button_text != curr_filter_category) {
 
@@ -254,7 +255,7 @@ function createDrawer() {
 				createDisplay(curr_filters);
 			}
 			else {
-				let filters = d3.select("#filters-container").transition().duration(250).style("opacity", 0);
+				let filters = d3.select("#filters-container").style("opacity", 0);
 				d3.selectAll(".filter-row").transition().duration(250).remove();
 				curr_filter_category = button_text;
 			}
