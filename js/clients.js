@@ -17,6 +17,10 @@ const tags_file_path = "../assets/data/clients_tags.csv";
 const attribute_name = "client";
 const img_folder = "Client"
 
+createGlobals();
+createDisplay(curr_filters, false);
+createDrawer();
+
 
 
 

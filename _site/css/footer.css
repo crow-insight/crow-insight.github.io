@@ -1,3 +1,6 @@
-footer .wave-wrapper {
+.footer-wave-wrapper {
 	padding-bottom: 50px;
+	width: 100%;
+	background-color: #f2f7ff;
+	margin-top: -10px;
 }

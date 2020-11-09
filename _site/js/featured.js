@@ -18,5 +18,4 @@ const attribute_name = "portfolio_item";
 const img_folder = "Portfolio"
 
 createGlobals();
-createDisplay(curr_filters, false);
-createDrawer();
+createDisplay(curr_filters, true);

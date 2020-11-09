@@ -17,4 +17,6 @@ const tags_file_path = "../assets/data/portfolio_tags.csv";
 const attribute_name = "portfolio_item";
 const img_folder = "Portfolio"
 
-
+createGlobals();
+createDisplay(curr_filters, false);
+createDrawer();

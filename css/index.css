@@ -6,3 +6,27 @@
 	border-bottom: 1px solid #0D226B;
 	padding-bottom: 3px;
 }*/
+
+.block:hover {
+  color: #ccac00;
+}
+
+.block {
+	border: 1px solid lightgrey;
+	padding: 15px;
+	color: black;
+  	text-decoration: none;
+}
+
+.block-row:nth-child(even) {
+	margin-top: 50px;
+}
+
+.service-icon {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.services-row div p {
+ 	text-align: center;
+}

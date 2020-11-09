@@ -1,36 +1,36 @@
-﻿portfolio_item,image_name,permalink,environment,public_health,criminal_justice,education,transportation,emergency_relief,international_development,energy,measurement_and_evaluation,budgeting_and_finance,survey_data,data_quality,risk_and_uncertainty,automated_reporting,scientific_and_technical_illustration,other_illustration,graphic_design,report_layout,presentation_design,professional_editing,web_development,data_modeling,dashboards,data_storytelling,custom_code,scrollytelling,r_shiny,tableau
-ASPPH Data Center dashboard,ASPPH.png,/ASPPH/,,1,,,,,,,,,,,,,,,,,,,,,1,,,,,1
-School dashboard (Dashboard for Community),ElbowRoom.png,/elbow/,,,,1,,,,,,,,,,,,,,,,,,,1,,,,,1
-Achieving the Dream “tree map” graphic,ATD_TreeMap.png,/achieving_the_dream_tree_map/,,,,1,,,,,,,1,,,,,,,,,,,,1,,,,,1
-EPA’s “The Long Road to Safer Water” infographic,EPA_R6.png,/EPA_R6_Water_Infrastructure_Grant/,1,1,,,,,1,,,,,,,,,,1,,,,,,,1,,,,1
-“Virginia is for … Drivers?” survey dashboard,VirginiaDrivers.png,/Virginia_is_for_drivers/,,,,,1,,,,1,,1,,,,,,,,,,,,1,,,,,1
-“Reputation Matter” survey slope graph,MarketingCampaign.png,/marketing_campaign_survey_results/,,,,1,,,,,,,1,,,,,,,,1,,,,,1,,,,1
-University Market research horizonal bar graph,UniversityCommunitySurvey.png,/university_community_survey_results/,,,,1,,,,,,,1,,,,,,,,1,,,,,1,,,,1
-Interactive Financial Reporting dashboard,FinancialDashboard.png,,,,,,,,,,,1,,,,,,,,,,,,,1,,,,,1
-Combined Federal Campaign (CFC) Charity Search Tool dashboard,CombinedFederalCampaign.png,/charitable_giving/,,,,,,,,,,,,,,,,,,,,,,,1,,,,,1
-EPA’s Storytelling infographic(Great Lakes),StoryTelling.png,,1,,,,,,,,1,,,,,,,,1,,,,,,,1,,,,1
-eHealth Africa Ebola crisis map,eHealthAfrica_Ebola.png,/ehealth_africa/,,1,,,,,,,,,,,,,,,,,,,,,1,,,,,
-Connecting Spending and Outcomes dashboard,SpendingsDashboard.png,/correlating_spending_performance/,1,,,,,,,,,1,,,1,,,,,,,,,,1,,,,,1
-VDOT informed decision-making dashboard,VDOT.png,,,,,,1,,,,1,,,,,,,,,,,,,1,1,,,,,1
-ATD Automated Reporting data reports,ATD_AutomatedReport.png,/ATD_automated_reports/,,,,1,,,,,,,,,,,,,,1,,,,,,1,,,,
-EPA Focused infographic,EPA_ShouldYourLake.png,/EPA_should_your_lake/,,,,,,,,,,,,,,,,,1,,,1,,,,,,,,
-ECOS storytelling slides/presentation,ECOS_Presentation.png,,1,,,,,,,,1,,,,,,,,,,1,,,,,1,,,,1
-NLA 2012 Report,ModernReport.png,/EPA_modern_report_design/,1,1,,,,,,,,,,,,,1,,1,1,,1,,,,1,,,,
-NLA 2012 Dashboard,NLA_Dashboard.png,/EPA_dashboard/,1,1,,,,,,,1,,1,,1,,,,,,,,1,1,1,,1,,,
-Office of Water (OW) Explanatory graphic figure,OW_ExplanatoryGraphic.png,,1,,,,,,,,1,,1,,1,,,,1,,,1,,,,1,,,,
-Notre-Dame Global Adaptation Index (ND-GAIN) Adaptive City Planning dashboard,ND_GAIN.png,/ND-GAIN_planning_resilience/,1,,,,,,,,,,,,1,,,,,,,,,,,1,,,,1
-Health Data Success story,HealthData.png,,,1,,,,,,,,,,,,,,,,,,,,,,1,,,,1
-Foundation Grants dashboard,FoundationGrant.png,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,1
-De Beaumont Foundation PH Wins data story,,,,1,,,,,,,1,,1,,1,,,1,1,,,,1,,1,1,1,,,1
-Region v Public Health Training Center,,,,1,,1,,,,,,,1,,1,,,,1,,,,1,,1,,1,,,1
-ASTHO,,,,1,,,,,,,,,1,,,,,,,,,,,1,1,,,,,1
-Verra 01 explanation of climate credit,,,1,,,,,,,,,,,,,,1,,,,1,,,,,1,,,,
-Mary’s Scientific illustrations,,,1,,,,,,,,,,,,,,1,,1,,,1,,,,,,,,
-NRSA Field Methods,,,1,,,,,,,,,,,,,,1,1,1,,,1,1,,,,,,,
-NCCA 2010 dashboard,,,1,1,,,,,,,1,,1,,1,,,,,,,,1,1,1,,1,,,
-EPRI explanation of electricity model,,,1,,,,,,,1,,,,,,,,,,,1,,,,,1,,,,1
-Eversource,,,1,,,,,,,1,,,,,,,,,,,1,,,1,,1,,,,1
-SOVA Solutions emphasizing the Qualtrics reporting solution:,,,,,,1,,,,,,,1,,,1,,,1,1,,,1,1,,1,1,,,
-"NASPA emphasizing the Qualtrics reporting solution, including presentation, report and dashboard",,,,,,1,,,,,,,1,,,1,,,1,1,1,,1,1,1,1,1,,,
-EPA  Lake comparison tool,,,1,,,,,,,,1,,1,,1,,,,1,,,,1,,1,,1,,1,
-Recast Your City book illustrations (Mary),,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,
+﻿portfolio_item,featured,image_name,permalink,environment,public_health,criminal_justice,education,transportation,emergency_relief,international_development,energy,measurement_and_evaluation,budgeting_and_finance,survey_data,data_quality,risk_and_uncertainty,automated_reporting,scientific_and_technical_illustration,other_illustration,graphic_design,report_layout,presentation_design,professional_editing,web_development,data_modeling,dashboards,data_storytelling,custom_code,scrollytelling,r_shiny,tableau
+ASPPH Data Center dashboard,0,ASPPH.png,/ASPPH/,,1,,,,,,,,,,,,,,,,,,,,,1,,,,,1
+School dashboard (Dashboard for Community),0,ElbowRoom.png,/elbow/,,,,1,,,,,,,,,,,,,,,,,,,1,,,,,1
+Achieving the Dream “tree map” graphic,0,ATD_TreeMap.png,/achieving_the_dream_tree_map/,,,,1,,,,,,,1,,,,,,,,,,,,1,,,,,1
+EPA’s “The Long Road to Safer Water” infographic,0,EPA_R6.png,/EPA_R6_Water_Infrastructure_Grant/,1,1,,,,,1,,,,,,,,,,1,,,,,,,1,,,,1
+“Virginia is for … Drivers?” survey dashboard,0,VirginiaDrivers.png,/Virginia_is_for_drivers/,,,,,1,,,,1,,1,,,,,,,,,,,,1,,,,,1
+“Reputation Matter” survey slope graph,0,MarketingCampaign.png,/marketing_campaign_survey_results/,,,,1,,,,,,,1,,,,,,,,1,,,,,1,,,,1
+University Market research horizonal bar graph,0,UniversityCommunitySurvey.png,/university_community_survey_results/,,,,1,,,,,,,1,,,,,,,,1,,,,,1,,,,1
+Interactive Financial Reporting dashboard,0,FinancialDashboard.png,,,,,,,,,,,1,,,,,,,,,,,,,1,,,,,1
+Combined Federal Campaign (CFC) Charity Search Tool dashboard,0,CombinedFederalCampaign.png,/charitable_giving/,,,,,,,,,,,,,,,,,,,,,,,1,,,,,1
+EPA’s Storytelling infographic(Great Lakes),0,StoryTelling.png,,1,,,,,,,,1,,,,,,,,1,,,,,,,1,,,,1
+eHealth Africa Ebola crisis map,1,eHealthAfrica_Ebola.png,/ehealth_africa/,,1,,,,,,,,,,,,,,,,,,,,,1,,,,,
+Connecting Spending and Outcomes dashboard,0,SpendingsDashboard.png,/correlating_spending_performance/,1,,,,,,,,,1,,,1,,,,,,,,,,1,,,,,1
+VDOT informed decision-making dashboard,0,VDOT.png,,,,,,1,,,,1,,,,,,,,,,,,,1,1,,,,,1
+ATD Automated Reporting data reports,0,ATD_AutomatedReport.png,/ATD_automated_reports/,,,,1,,,,,,,,,,,,,,1,,,,,,1,,,,
+EPA Focused infographic,0,EPA_ShouldYourLake.png,/EPA_should_your_lake/,,,,,,,,,,,,,,,,,1,,,1,,,,,,,,
+ECOS storytelling slides/presentation,0,ECOS_Presentation.png,,1,,,,,,,,1,,,,,,,,,,1,,,,,1,,,,1
+NLA 2012 Report,0,ModernReport.png,/EPA_modern_report_design/,1,1,,,,,,,,,,,,,1,,1,1,,1,,,,1,,,,
+NLA 2012 Dashboard,1,NLA_Dashboard.png,/EPA_dashboard/,1,1,,,,,,,1,,1,,1,,,,,,,,1,1,1,,1,,,
+Office of Water (OW) Explanatory graphic figure,0,OW_ExplanatoryGraphic.png,,1,,,,,,,,1,,1,,1,,,,1,,,1,,,,1,,,,
+Notre-Dame Global Adaptation Index (ND-GAIN) Adaptive City Planning dashboard,0,ND_GAIN.png,/ND-GAIN_planning_resilience/,1,,,,,,,,,,,,1,,,,,,,,,,,1,,,,1
+Health Data Success story,1,HealthData.png,,,1,,,,,,,,,,,,,,,,,,,,,,1,,,,1
+Foundation Grants dashboard,1,FoundationGrant.png,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,1
+De Beaumont Foundation PH Wins data story,0,,,,1,,,,,,,1,,1,,1,,,1,1,,,,1,,1,1,1,,,1
+Region v Public Health Training Center,0,,,,1,,1,,,,,,,1,,1,,,,1,,,,1,,1,,1,,,1
+ASTHO,0,,,,1,,,,,,,,,1,,,,,,,,,,,1,1,,,,,1
+Verra 01 explanation of climate credit,0,,,1,,,,,,,,,,,,,,1,,,,1,,,,,1,,,,
+Mary’s Scientific illustrations,0,,,1,,,,,,,,,,,,,,1,,1,,,1,,,,,,,,
+NRSA Field Methods,0,,,1,,,,,,,,,,,,,,1,1,1,,,1,1,,,,,,,
+NCCA 2010 dashboard,0,,,1,1,,,,,,,1,,1,,1,,,,,,,,1,1,1,,1,,,
+EPRI explanation of electricity model,0,,,1,,,,,,,1,,,,,,,,,,,1,,,,,1,,,,1
+Eversource,0,,,1,,,,,,,1,,,,,,,,,,,1,,,1,,1,,,,1
+SOVA Solutions emphasizing the Qualtrics reporting solution:,0,,,,,,1,,,,,,,1,,,1,,,1,1,,,1,1,,1,1,,,
+"NASPA emphasizing the Qualtrics reporting solution, including presentation, report and dashboard",0,,,,,,1,,,,,,,1,,,1,,,1,1,1,,1,1,1,1,1,,,
+EPA  Lake comparison tool,0,,,1,,,,,,,,1,,1,,1,,,,1,,,,1,,1,,1,,1,
+Recast Your City book illustrations (Mary),0,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,

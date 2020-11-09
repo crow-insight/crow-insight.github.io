@@ -4,45 +4,29 @@
 }
 
 .banner-text-container {
-	position: relative;
 	background: #f2f7ff;
 	color: #0D226B;
-	text-align: center;
-	overflow: hidden;
-
-	margin: 0 auto;
-	width: 80%;
-
-	max-width: 1000px;
+	text-align: left;
 }
 
 .wave-wrapper {
 	width: 100%;
-	background-color: #f2f7ff;
 	margin-top: -10px;
 }
 
+.blue-wave {
+	background-color: #f2f7ff;
+}
+
+.grey-wave {
+	background-color: #f5f5f7;
+}
+
 .banner-text-container h1 {
-
-	text-align: left;
 	font-weight: 700;
-
 	margin-top: 10%;
 }
 
 .banner-text-container p {
-	text-align: left;
 	max-width: 700px;
 }
-
-/*@media screen and (min-width: 1000px) {
-
-	.banner-text-container h1 {
-		font-size: 60px;
-	}
-  
-	.banner-text-container p {
-		font-size: 40px;
-	}
-
-}*/

@@ -1,22 +1,28 @@
 function getTags(d) {
-	tag_string = "";
-	for (let key in d) {
-		if (+d[key] == 1) {
 
-			for (let i = 0; i < metadata.length; i++) {
-				if (key == metadata[i].Tag) {
-					if (tag_string == "") {
-						tag_string = metadata[i].PlainLanguage;
-					}
-					else {
-						tag_string = tag_string + ", " + metadata[i].PlainLanguage;
+	if (img_folder == "Portfolio") {
+		tag_string = "";
+		for (let key in d) {
+			if (+d[key] == 1) {
+
+				for (let i = 0; i < metadata.length; i++) {
+					if (key == metadata[i].Tag) {
+						if (tag_string == "") {
+							tag_string = metadata[i].PlainLanguage;
+						}
+						else {
+							tag_string = tag_string + ", " + metadata[i].PlainLanguage;
+						}
 					}
 				}
 			}
-		}
 
+		}
+		return tag_string;
 	}
-	return tag_string;
+	else {
+		return "";
+	}
 }
 
 function getPermalink(d, i) {
@@ -24,11 +30,12 @@ function getPermalink(d, i) {
 		return d[i]["permalink"];
 	}
 	else{
-		return "../" + d[i]["permalink"];
+		return ".." + d[i]["permalink"];
 	}
 }
 
 function createBlocks(rows) {
+
 	let display = d3.select("#display-container")
 		.style("opacity", 0);
 
@@ -50,9 +57,14 @@ function createBlocks(rows) {
 					image_name = "modernreport.png"
 				}
 
+				let descriptor = d[i][attribute_name] 
+				if (img_folder == "Client") {
+					descriptor = "";
+				}
+
 				html_string = html_string + "<a target='_blank' href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
 							"<img class='u-max-full-width " + img_folder + "' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
-							"<p><strong>" + d[i][attribute_name] + "</strong>" + "<br>" + 
+							"<p><strong>" + descriptor + "</strong>" + "<br>" + 
 							getTags(d[i]) + "</p>" +
 							"</a>";
 			}
@@ -71,7 +83,7 @@ function createGlobals() {
 	})
 }
 
-function createDisplay(filters) {
+function createDisplay(filters, show_featured_only) {
 
 	rows = [];
 	display_infos = [];
@@ -83,7 +95,14 @@ function createDisplay(filters) {
 	})
 	.then(function(d) {
 		d3.csv(tags_file_path, function(data, i) {
-			display_infos.push(data);
+			if (show_featured_only == true) {
+				console.log(data);
+				if (data.featured == 1)
+					display_infos.push(data);
+			}
+			else {
+				display_infos.push(data);
+			}
 		})
 		.then(function(d) {
 
@@ -139,8 +158,6 @@ function createDrawer() {
 
 			let filter_selection = d3.select(this);
 			let drawer_is_open = (d3.select("#filters-container").style("opacity") == 1)
-
-			console.log("button text is ", button_text);
 
 			if ((button_text != curr_filter_category && button_text != "All") || (button_text == curr_filter_category && drawer_is_open == false && button_text != "All") ) {
 
@@ -261,8 +278,3 @@ function createDrawer() {
 			}
 		});
 }
-
-
-createGlobals();
-createDisplay(curr_filters);
-createDrawer();
