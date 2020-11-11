@@ -7,3 +7,8 @@ h2 {
 	height: 90px;
 	background-color: white;
 }
+
+.Portfolio {
+	height: 350px;
+	object-fit: contain;
+}

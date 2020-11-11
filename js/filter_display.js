@@ -18,7 +18,7 @@ function getTags(d) {
 			}
 
 		}
-		return tag_string;
+		return "<span class='tags'>" + tag_string + "</span>";
 	}
 	else {
 		return "";

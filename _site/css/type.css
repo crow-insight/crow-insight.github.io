@@ -17,7 +17,7 @@ h2 {
 }
 
 
-/*.container a {
+.action-link {
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -32,6 +32,11 @@ h2 {
   cursor: pointer;
 }
 
-.container a:hover {
+.action-link:hover {
   background-size: 4px 50px;
-}*/
+  color: black;
+}
+
+.tags {
+  color: #646468;
+}
