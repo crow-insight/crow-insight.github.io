@@ -4,8 +4,9 @@
 }
 
 .banner-text-container {
-	background: #f2f7ff;
-	color: #0D226B;
+	/*background: #f2f7ff;*/
+	/*color: #0D226B;*/
+	color: white;
 	text-align: left;
 }
 
@@ -25,8 +26,24 @@
 .banner-text-container h1 {
 	font-weight: 700;
 	margin-top: 10%;
+	color: white;
 }
 
 .banner-text-container p {
 	max-width: 700px;
+}
+
+.bg {
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg svg {
+	transform: translateY(10px);
 }
