@@ -13,7 +13,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
 .dropdown-content {
@@ -39,4 +39,12 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (min-width: 768px) {
+
+  .dropdown {
+    margin-left: 40px;
+  }
+
 }

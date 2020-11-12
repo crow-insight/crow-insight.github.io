@@ -82,11 +82,11 @@ nav {
   .navbar-toggle {
     display: none;
   }
+}
 
-  .logo:hover,
-  .nav-links:hover {
-    color: #ccac00;
-  }
+.logo:hover,
+.nav-links:hover {
+  color: #ccac00;
 }
 
 svg:not(:root).svg-inline--fa {
