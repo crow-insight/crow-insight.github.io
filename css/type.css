@@ -10,10 +10,15 @@ h5,
 h6 
 {
 	color: #0D226B;
+  margin-bottom: 0px;
 }
 
 h2 {
 	font-weight: 600;
+}
+
+p {
+  margin-bottom: 0px;
 }
 
 
