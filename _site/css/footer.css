@@ -4,3 +4,11 @@
 	background-color: #f2f7ff;
 	margin-top: -10px;
 }
+
+#date {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+	margin-bottom: 0px;
+}
