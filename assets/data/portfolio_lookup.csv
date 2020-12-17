@@ -13,8 +13,7 @@ survey_data,Subject Matter,Survey Data
 data_quality,Subject Matter,Data Quality
 risk_and_uncertainty,Subject Matter,Risk & Uncertainty
 automated_reporting,Technical Capabilities,Automated Reporting
-scientific_and_technical_illustration,Technical Capabilities,Scientific & Technical Illustration
-other_illustration,Technical Capabilities,Other Illustration
+illustration,Technical Capabilities,Illustration
 graphic_design,Technical Capabilities,Graphic Design
 report_layout,Technical Capabilities,Report Layout
 presentation_design,Technical Capabilities,Presentation Design
