@@ -42,9 +42,9 @@ p {
   color: black;
 }
 
-.tags {
+.block .tags {
   /*color: #646468;
 */  
-  font-size: .8em;
+  font-size: .6em;
   color: lightgrey;
 }

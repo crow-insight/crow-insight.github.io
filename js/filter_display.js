@@ -18,7 +18,7 @@ function getTags(d) {
 			}
 
 		}
-		return "<span class='tags'>" + tag_string + "</span>";
+		return tag_string;
 	}
 	else {
 		return "";
@@ -64,8 +64,8 @@ function createBlocks(rows) {
 
 				html_string = html_string + "<a target='_blank' href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
 							"<img class='u-max-full-width " + img_folder + "' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
-							"<p><strong>" + descriptor + "</strong>" + "<br>" + 
-							getTags(d[i]) + "</p>" +
+							"<div><p><strong>" + descriptor + "</strong>" + "</p>" + 
+							"<p class='tags'>" + getTags(d[i]) + "</p></div>" +
 							"</a>";
 			}
 

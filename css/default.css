@@ -24,11 +24,14 @@ h2 {
   	text-decoration: none;
 }
 
+.block div {
+	padding: 15px;
+    margin-top: -10px;
+    background-color: #0D226B;
+}
+
 .block p {
     color: white;
-    background-color: #0D226B;
-    padding: 15px;
-    margin-top: -10px;
 }
 
 .title-container {
