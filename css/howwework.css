@@ -3,7 +3,11 @@
 	padding-bottom: 3px;
 }*/
 
-.howwework-content .row:nth-child(1),
-.howwework-content .row:nth-child(2) {
-	margin-bottom: 100px;
+.howwework-content .row:nth-child(2),
+.howwework-content .row:nth-child(4) {
+	margin-bottom: 80px;
+}
+
+.howwework-content h2 {
+	margin-bottom: .4em;
 }

@@ -30,3 +30,11 @@ h2 {
     padding: 15px;
     margin-top: -10px;
 }
+
+.title-container {
+	margin-bottom: .5em;
+}
+
+.title-container p {
+	color: #0D226B;
+}
