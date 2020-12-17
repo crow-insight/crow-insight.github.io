@@ -1,5 +1,12 @@
-h1 {
+.title-container {
 	padding-top: 3rem;
 	padding-bottom: 2rem;
+}
+
+.title-container p {
+	color: #0D226B;
+}
+
+h1 {
 	font-weight: 700;
 }

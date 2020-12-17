@@ -1,6 +1,7 @@
 ---
 layout: item
-title: "How Do You Compare? Benchmarking Against Peers"
+title: "How Do You Compare?"
+subtitle: "Benchmarking Against Peers"
 permalink: /ASPPH/
 image: "/assets/img/modernreport.png"
 ---
