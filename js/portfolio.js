@@ -18,27 +18,32 @@ const attribute_name = "portfolio_item";
 const img_folder = "Portfolio"
 
 let url = window.location.href;
+let open_drawer = false;
 
 if (url.includes("data_communication")) {
 	curr_filters.push("Data Communication");
 	curr_filter_category = "Services";
 	d3.select("#services-filter").style("font-weight", "700").style("color", "black");
+	open_drawer = true;
+
 }
 else if (url.includes("visual_explanation")) {
 	curr_filters.push("Visual Explanation");
 	curr_filter_category = "Services";
 	d3.select("#services-filter").style("font-weight", "700").style("color", "black");
+	open_drawer = true;
 }
 else if (url.includes("information_dashboards")) {
 	curr_filters.push("Information Dashboards");
 	curr_filter_category = "Services";
 	d3.select("#services-filter").style("font-weight", "700").style("color", "black");
+	open_drawer = true;
 }
 else {
 	d3.select("#all-filter").style("font-weight", "700").style("color", "black");
 }
 
 
-createGlobals();
+createGlobals(open_drawer);
 createDisplay(curr_filters, false);
 createDrawer();

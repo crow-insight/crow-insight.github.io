@@ -76,10 +76,15 @@ function createBlocks(rows) {
 		.style("opacity", 1);
 }
 
-function createGlobals() {
+function createGlobals(open_drawer = false) {
 	d3.csv(lookup_file_path, function(data, i) {
 		metadata.push(data);
 		metadata_dict[data.PlainLanguage] = data.Tag;
+	})
+	.then(function() {
+		if (open_drawer == true) {
+			$("#services-filter").click();
+		}
 	})
 }
 
