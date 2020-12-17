@@ -8,6 +8,8 @@
 
 .core-principles .icon{
 	max-width: 50%;
+	height: 10vw;
+	object-fit: contain;
 }
 
 .core-principles .row:nth-child(2),
