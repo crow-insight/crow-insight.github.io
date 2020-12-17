@@ -2,7 +2,7 @@
 layout: item
 title: "Automating and Customizing Your Reports"
 permalink: /ATD_automated_reports/
-image: "/assets/img/ATD-benchmark-image-full-size_4-charts_border.jpeg"
+image: "/assets/img/Portfolio/ATD_AutomatedReport.png"
 ---
 **Achieving the Dream** helps community colleges use data to improve student outcomes. ATD urgently needed to distribute nearly 200 college-specific benchmarking reports to its members, using existing software, visual best practices, and an automated process.
 

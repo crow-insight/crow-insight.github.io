@@ -2,7 +2,7 @@
 layout: item
 title: "Shareable Infographics"
 permalink: /EPA_should_your_lake/
-image: "/assets/img/Both-EPA-National-Lakes-Assessment-Infographics-2016.png"
+image: "/assets/img/Portfolio/EPA_ShouldYourLake.png"
 ---
 We believe that good infographic design starts with a pithy message, not numbers inside donut charts.
 

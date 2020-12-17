@@ -2,7 +2,7 @@
 layout: item
 title: "Outside (and Inside) the Box: Sharing What Works"
 permalink: /achieving_the_dream_tree_map/
-image: 
+image: "/assets/img/Portfolio/ATD_TreeMap.png"
 ---
 **Achieving the Dream** partners with community colleges to design and share innovative programs (interventions) to improve student success. ATD asked Crow Insight to develop a visual interface for its Interventions Showcase. The new Showcase both summarizes the hundreds of interventions conducted and helps colleges discover more about each.
 

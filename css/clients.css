@@ -15,6 +15,10 @@
 	display: none;
 }
 
+.block div {
+	padding: 0px;
+}
+
 .Client {
 	height: 20vw;
 	width: 100%;
