@@ -100,12 +100,14 @@ function createDisplay(filters, show_featured_only) {
 	})
 	.then(function(d) {
 		d3.csv(tags_file_path, function(data, i) {
-			if (show_featured_only == true) {
-				if (data.featured == 1)
+			if (data.include == 1) {
+				if (show_featured_only == true) {
+					if (data.featured == 1)
+						display_infos.push(data);
+				}
+				else {
 					display_infos.push(data);
-			}
-			else {
-				display_infos.push(data);
+				}
 			}
 		})
 		.then(function(d) {
