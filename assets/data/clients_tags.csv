@@ -1,30 +1,30 @@
-﻿client,permalink,image_name,nonprofits_and_foundations,member_organizations,government,private_sector,environment,energy,public_health,education,other
-AAVMC,https://www.aavmc.org,AAVMC.png,1,1,,,,,,1,
-American University,https://www.american.edu,AmericanUniversity.png,1,,,,,,,1,
-AMI,https://montessori-ami.org,AMI.png,1,1,,,,,,1,
-Appian,https://www.appian.com,Appian.png,,,,1,,,,,1
-ASPPH,https://www.aspph.org,ASPPH.png,1,1,,,,,,1,
-ASTHO,https://www.astho.org,ASTHO.png,1,1,,,,,1,,
-ATD,https://www.achievingthedream.org,ATD.png,1,1,,,,,,1,
-Avanti Corporation,http://www.avanticorporation.com,Avanti.png,,,,1,1,,1,,
-CADMUS,https://cadmusgroup.com,CADMAS.png,,,,1,1,1,,,
-Civitas Learning,https://www.civitaslearning.com,Civitas.png,,,,1,,,,1,
-CRC,https://www.rila.org/retail-compliance-center,RCC.png,,,,1,1,,,,1
-DAI,https://www.dai.com,DaI.png,,,,1,,,,,1
-De Beaumont Foundation,https://www.debeaumont.org,deBeaumont.png,1,,,,,,1,,
-ECOS,https://www.ecos.org,ECOS.png,1,1,,,1,,,,
-eHealth Africa,https://www.ehealthafrica.org,eHealthAfrica.png,1,,,,,,1,,
-EPA,https://www.epa.gov,EPA.png,,,1,,1,,1,,
-EPRI,https://www.epri.com,EPRI.png,1,1,,,,1,,,
-Eversource Energy,https://www.eversource.com/content/ema-c,Eversource.png,,,,1,,1,,,
-FDA,https://www.fda.gov,FDA.png,,,1,,,,1,,
-IEc,https://www.iec.ch,IEC.png,,,,1,1,,,,
-Kate Hastings Consulting,,,,,,1,1,,1,1,
-NASPA,https://www.naspa.org,NASPA.png,1,1,,,,,,1,
-ND-GAIN,https://gain.nd.edu,ND_GAIN.png,1,,,,1,,,,
-NEWMOA,http://www.newmoa.org,NEWMOA.png,1,1,,,1,,,,
-PBS,https://www.pbs.org,PBS.png,1,1,,,,,,,1
-RVPHTC,https://www.rvphtc.org,RVPHTC.png,1,,,,,,1,,
-Sova Solutions,https://sova.org,Sova.png,,,,1,,,,1,
-VDOT,https://www.virginiadot.org,VDOT.png,,,1,,,,,,1
-Verra,https://verra.org,Verra.png,1,,,,1,,,,
+﻿client,permalink,image_name,include,nonprofits_and_foundations,member_organizations,government,private_sector,environment,energy,public_health,education,other
+AAVMC,https://www.aavmc.org,AAVMC.png,1,1,1,,,,,,1,
+American University,https://www.american.edu,AmericanUniversity.png,1,1,,,,,,,1,
+AMI,https://montessori-ami.org,AMI.png,1,1,1,,,,,,1,
+Appian,https://www.appian.com,Appian.png,1,,,,1,,,,,1
+ASPPH,https://www.aspph.org,ASPPH.png,1,1,1,,,,,,1,
+ASTHO,https://www.astho.org,ASTHO.png,1,1,1,,,,,1,,
+ATD,https://www.achievingthedream.org,ATD.png,1,1,1,,,,,,1,
+Avanti Corporation,http://www.avanticorporation.com,Avanti.png,1,,,,1,1,,1,,
+CADMUS,https://cadmusgroup.com,CADMAS.png,1,,,,1,1,1,,,
+Civitas Learning,https://www.civitaslearning.com,Civitas.png,1,,,,1,,,,1,
+CRC,https://www.rila.org/retail-compliance-center,RCC.png,1,,,,1,1,,,,1
+DAI,https://www.dai.com,DaI.png,1,,,,1,,,,,1
+De Beaumont Foundation,https://www.debeaumont.org,deBeaumont.png,1,1,,,,,,1,,
+ECOS,https://www.ecos.org,ECOS.png,1,1,1,,,1,,,,
+eHealth Africa,https://www.ehealthafrica.org,eHealthAfrica.png,1,1,,,,,,1,,
+EPA,https://www.epa.gov,EPA.png,1,,,1,,1,,1,,
+EPRI,https://www.epri.com,EPRI.png,1,1,1,,,,1,,,
+Eversource Energy,https://www.eversource.com/content/ema-c,Eversource.png,1,,,,1,,1,,,
+FDA,https://www.fda.gov,FDA.png,1,,,1,,,,1,,
+IEc,https://www.iec.ch,IEC.png,1,,,,1,1,,,,
+Kate Hastings Consulting,,,1,,,,1,1,,1,1,
+NASPA,https://www.naspa.org,NASPA.png,1,1,1,,,,,,1,
+ND-GAIN,https://gain.nd.edu,ND_GAIN.png,1,1,,,,1,,,,
+NEWMOA,http://www.newmoa.org,NEWMOA.png,1,1,1,,,1,,,,
+PBS,https://www.pbs.org,PBS.png,1,1,1,,,,,,,1
+RVPHTC,https://www.rvphtc.org,RVPHTC.png,1,1,,,,,,1,,
+Sova Solutions,https://sova.org,Sova.png,1,,,,1,,,,1,
+VDOT,https://www.virginiadot.org,VDOT.png,1,,,1,,,,,,1
+Verra,https://verra.org,Verra.png,1,1,,,,1,,,,
