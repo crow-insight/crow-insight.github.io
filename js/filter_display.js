@@ -96,7 +96,6 @@ function createDisplay(filters, show_featured_only) {
 	.then(function(d) {
 		d3.csv(tags_file_path, function(data, i) {
 			if (show_featured_only == true) {
-				console.log(data);
 				if (data.featured == 1)
 					display_infos.push(data);
 			}
