@@ -13,7 +13,7 @@ h2 {
 }
 
 .block:hover {
-  color: #ccac00;
+  color: #f9de3e;
 }
 
 .block {
@@ -27,8 +27,8 @@ h2 {
 .block div {
 	padding: 15px;
     margin-top: -10px;
-    /*background-color: #4d5a74;*/
-    background-color: #3b4e6a;
+    /*background-color: #3b4e6a;*/
+    background-color: #123c5d;
 }
 
 .block p {
@@ -40,5 +40,5 @@ h2 {
 }
 
 .title-container p {
-	color: #0D226B;
+	color: #123c5d;
 }

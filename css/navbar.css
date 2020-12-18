@@ -23,7 +23,7 @@ nav {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: #0D226B;
+  color: #123c5d;
 }
 
 .main-nav li {
@@ -43,7 +43,7 @@ nav {
   top: 20px;
   right: 20px;
   cursor: pointer;
-  color: #0D226B;
+  color: #123c5d;
   font-size: 24px;
 }
 
@@ -86,7 +86,7 @@ nav {
 
 .logo:hover,
 .nav-links:hover {
-  color: #ccac00;
+  color: #f9de3e;
 }
 
 svg:not(:root).svg-inline--fa {
