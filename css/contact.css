@@ -29,3 +29,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #FDBE34;
 }
+
+.columns {
+  margin-top: 1em;
+}
