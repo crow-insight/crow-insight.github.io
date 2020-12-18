@@ -1,14 +1,16 @@
-﻿portfolio_item,item_description_hidden,notes,include,featured,sort,image_name,permalink,data_communication,visual_explanation,information_dashboards,environment,public_health,education,energy_transportation,measurement_and_evaluation,budget_and_finance,survey_data,risk_and_uncertainty,automated_reporting
-De Beaumont Foundation PH Wins data story,De Beaumont Foundation PH Wins data story,,1,1,1.0,,,1,,,,1,,,1,,1,1,
-Streamlined Reporting to Inform Change Management Strategies,Sova,,1,1,1.0,Sova-Climate-Scan-Sample.png,,1,,,,,1,,,,1,,1
+﻿,,,,,,,,data_communication,visual_explanation,information_dashboards,environment,public_health,education,energy_transportation,measurement_and_evaluation,budget_and_finance,survey_data,risk_and_uncertainty,automated_reporting
+,,,,,,,,,,,,,,,,,,,
+portfolio_item,item_description_hidden,notes,include,featured,sort,image_name,permalink,data_communication,visual_explanation,information_dashboards,environment,public_health,education,energy_transportation,measurement_and_evaluation,budget_and_finance,survey_data,risk_and_uncertainty,automated_reporting
+Who Are the Public Health Workforce?  What Do They Think?,De Beaumont Foundation PH Wins data story,,1,1,1.0,PH-WINS-2017-Future.png,,1,,,,1,,,1,,1,1,
+Streamlined Reporting to Inform Change Management Strategies,Streamlined Reporting to Inform Change Management Strategies,,1,1,1.0,Sova-Climate-Scan-Sample.png,,1,,,,,1,,,,1,,1
 Helping Readers Imagine Small-Scale Urban Manufacturing,Recast Your City illustrations,,1,1,1.0,Recast-Your-City-Maker-Spaces.png,,,1,,,,,,,,,,
-Painting a Profile of Public Health Agencies,ASTHO,,1,0,1.4,ASTHO-State-Profile_Dashboard.png,,,,1,,1,,,,,1,,
+Painting a Profile of Public Health Agencies,ASTHO,,1,1,1.4,,,,,1,,1,,,,,1,,
 ASPPH Data Center Dashboard,ASPPH Data Center Dashboard,,1,0,1.9,ASPPH.png,/ASPPH/,,,1,,1,1,,,,,,
-Region v Public Health Training Center,Region v Public Health Training Center,,1,0,2.0,,,,,1,,1,1,,,,1,1,
+What Kind of Training Do Public Health Staff Need?,Region v Public Health Training Center,,1,0,2.0,RVPHTC-TNA-2020-Menu.png,,,,1,,1,1,,,,1,1,
 Making the Case for Accurate Carbon Accounting,Verra 01 explanation of climate credit,,1,1,2.0,,,,1,,1,,,1,,,,,
 Connecting Spending and Outcomes dashboard,Connecting Spending and Outcomes dashboard,,1,0,3.0,SpendingsDashboard.png,/correlating_spending_performance/,1,,1,1,,,,1,1,,1,
 IBO prototype,,,1,0,4.0,,,,,,,,,,1,,1,,
-Are Lakes in Good Condition? How EPA Decides.,Office of Water (OW) Explanatory graphic figure,,1,0,5.0,OW_ExplanatoryGraphic.png,,,1,,1,,,,1,,1,1,
+Are US Lakes in Good Condition? How EPA Decides.,Office of Water (OW) Explanatory graphic figure,,1,0,5.0,OW_ExplanatoryGraphic.png,,,1,,1,,,,1,,1,1,
 Achieving the Dream “tree map” graphic,Achieving the Dream “tree map” graphic,,1,0,8.6,ATD_TreeMap.png,/achieving_the_dream_tree_map/,,,1,,,1,,,,1,,
 NLA 2012 Dashboard,NLA 2012 Dashboard,,1,1,12.0,NLA_Dashboard.png,/EPA_dashboard/,,,1,1,1,,,1,,1,1,
 "Creating ""Infograms"" for Key Findings",EPA Focused infographic,,1,0,13.8,EPA_ShouldYourLake.png,/EPA_should_your_lake/,,1,,,,,,1,,,,
