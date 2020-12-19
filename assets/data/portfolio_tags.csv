@@ -1,18 +1,16 @@
-﻿,,,,,,,,data_communication,visual_explanation,information_dashboards,environment,public_health,education,energy_transportation,measurement_and_evaluation,budget_and_finance,survey_data,risk_and_uncertainty,automated_reporting
-,,,,,,,,,,,,,,,,,,,
-portfolio_item,item_description_hidden,notes,include,featured,sort,image_name,permalink,data_communication,visual_explanation,information_dashboards,environment,public_health,education,energy_transportation,measurement_and_evaluation,budget_and_finance,survey_data,risk_and_uncertainty,automated_reporting
-Who Are the Public Health Workforce?  What Do They Think?,De Beaumont Foundation PH Wins data story,,1,1,1.0,PH-WINS-2017-Future.png,,1,,,,1,,,1,,1,1,
-Streamlined Reporting to Inform Change Management Strategies,Streamlined Reporting to Inform Change Management Strategies,,1,1,1.0,Sova-Climate-Scan-Sample.png,,1,,,,,1,,,,1,,1
-Helping Readers Imagine Small-Scale Urban Manufacturing,Recast Your City illustrations,,1,1,1.0,Recast-Your-City-Maker-Spaces.png,,,1,,,,,,,,,,
+﻿portfolio_item,item_description_hidden,notes,include,featured,sort,image_name,permalink,data_communication,visual_explanation,information_dashboards,environment,public_health,education,energy_transportation,measurement_and_evaluation,budget_and_finance,survey_data,risk_and_uncertainty,automated_reporting
+Who Are the Public Health Workforce?  What Do They Think?,De Beaumont Foundation PH Wins data story,,1,1,1,PH-WINS-2017-Future.png,,1,,,,1,,,1,,1,1,
+Streamlined Reporting to Inform Change Management Strategies,Streamlined Reporting to Inform Change Management Strategies,,1,1,1,Sova-Climate-Scan-Sample.png,,1,,,,,1,,,,1,,1
+Helping Readers Imagine Small-Scale Urban Manufacturing,Recast Your City illustrations,,1,1,1,Recast-Your-City-Maker-Spaces.png,,,1,,,,,,,,,,
 Painting a Profile of Public Health Agencies,ASTHO,,1,1,1.4,,,,,1,,1,,,,,1,,
 ASPPH Data Center Dashboard,ASPPH Data Center Dashboard,,1,0,1.9,ASPPH.png,/ASPPH/,,,1,,1,1,,,,,,
-What Kind of Training Do Public Health Staff Need?,Region v Public Health Training Center,,1,0,2.0,RVPHTC-TNA-2020-Menu.png,,,,1,,1,1,,,,1,1,
-Making the Case for Accurate Carbon Accounting,Verra 01 explanation of climate credit,,1,1,2.0,,,,1,,1,,,1,,,,,
-Connecting Spending and Outcomes dashboard,Connecting Spending and Outcomes dashboard,,1,0,3.0,SpendingsDashboard.png,/correlating_spending_performance/,1,,1,1,,,,1,1,,1,
-IBO prototype,,,1,0,4.0,,,,,,,,,,1,,1,,
-Are US Lakes in Good Condition? How EPA Decides.,Office of Water (OW) Explanatory graphic figure,,1,0,5.0,OW_ExplanatoryGraphic.png,,,1,,1,,,,1,,1,1,
+What Kind of Training Do Public Health Staff Need?,Region v Public Health Training Center,,1,0,2,RVPHTC-TNA-2020-Menu.png,,,,1,,1,1,,,,1,1,
+Making the Case for Accurate Carbon Accounting,Verra 01 explanation of climate credit,,1,1,2,,,,1,,1,,,1,,,,,
+Connecting Spending and Outcomes dashboard,Connecting Spending and Outcomes dashboard,,1,0,3,SpendingsDashboard.png,/correlating_spending_performance/,1,,1,1,,,,1,1,,1,
+IBO prototype,,,1,0,4,,,,,,,,,,1,,1,,
+Are US Lakes in Good Condition? How EPA Decides.,Office of Water (OW) Explanatory graphic figure,,1,0,5,OW_ExplanatoryGraphic.png,,,1,,1,,,,1,,1,1,
 Achieving the Dream “tree map” graphic,Achieving the Dream “tree map” graphic,,1,0,8.6,ATD_TreeMap.png,/achieving_the_dream_tree_map/,,,1,,,1,,,,1,,
-NLA 2012 Dashboard,NLA 2012 Dashboard,,1,1,12.0,NLA_Dashboard.png,/EPA_dashboard/,,,1,1,1,,,1,,1,1,
+NLA 2012 Dashboard,NLA 2012 Dashboard,,1,1,12,NLA_Dashboard.png,/EPA_dashboard/,,,1,1,1,,,1,,1,1,
 "Creating ""Infograms"" for Key Findings",EPA Focused infographic,,1,0,13.8,EPA_ShouldYourLake.png,/EPA_should_your_lake/,,1,,,,,,1,,,,
 ECOS storytelling slides/presentation,ECOS storytelling slides/presentation,,1,0,20.5,ECOS_Presentation.png,,1,,,1,,,,1,,,,
 School dashboard (Dashboard for Community),School dashboard (Dashboard for Community),Get elbow room title into the image,1,0,21.4,ElbowRoom.png,/elbow/,,,1,,,1,,,,,,
@@ -29,14 +27,14 @@ Notre-Dame Global Adaptation Index (ND-GAIN) Adaptive City Planning dashboard,No
 eHealth Africa Ebola crisis map,eHealth Africa Ebola crisis map,,1,0,79.2,eHealthAfrica_Ebola.png,/ehealth_africa/,,,1,,1,,,,,,,
 Mary’s Scientific illustrations,Mary’s Scientific illustrations,,0,0,71.3,,,,1,,1,,,,,,,,
 NRSA Field Methods,NRSA Field Methods,,0,0,72.8,,,1,,,1,,,,,,,,
-Reporting Measures of Student Success to Community Colleges,ATD Automated Reporting data reports,,1,0,80.0,ATD_AutomatedReport.png,/ATD_automated_reports/,1,,,,,1,,1,,,,1
-Will Reducing River Pollution Help Aquatic Critters?,NRSA risk dashboard,Benthic invertebrates view,0,0,5.0,,,,,1,1,,,,,,,,
+Reporting Measures of Student Success to Community Colleges,ATD Automated Reporting data reports,,1,0,80,ATD_AutomatedReport.png,/ATD_automated_reports/,1,,,,,1,,1,,,,1
+Will Reducing River Pollution Help Aquatic Critters?,NRSA risk dashboard,Benthic invertebrates view,0,0,5,,,,,1,1,,,,,,,,
 “Reputation Matter” survey slope graph,“Reputation Matter” survey slope graph,,1,0,83.3,MarketingCampaign.png,/marketing_campaign_survey_results/,1,,,,,1,,,,1,,
 Eversource,Eversource,,0,0,91.4,,,1,,,1,,,1,,,,,
 Helping Infrastructure Managers Assess and Report Performance,VDOT informed decision-making dashboard,,1,0,86.8,VDOT.png,,1,,1,,,,1,1,,,,
 Integrated Reporting System for Higher Education Surveys,"NASPA emphasizing the Qualtrics reporting solution, including presentation, report and dashboard",,0,1,94.8,,,1,,1,,,1,1,,,1,,1
 EPA  Lake comparison tool,EPA  Lake comparison tool,,0,0,6.7,,,,,1,1,,,,1,,1,1,
 “Virginia is for … Drivers?” survey dashboard,“Virginia is for … Drivers?” survey dashboard,,1,0,96.8,VirginiaDrivers.png,/Virginia_is_for_drivers/,,,1,,,,1,1,,1,,1
-What Happens on a Field Day?,NRSA report figure,,0,0,2.0,,,,,,,,,,,,,,
-NRSA report pie charts,NRSA report pie charts,,0,0,8.0,,,,,,,,,,,,,,
+What Happens on a Field Day?,NRSA report figure,,0,0,2,,,,,,,,,,,,,,
+NRSA report pie charts,NRSA report pie charts,,0,0,8,,,,,,,,,,,,,,
 Telling the Story of Cleaning Up the Great Lakes,EPA’s Storytelling infographic(Great Lakes),,1,0,98.7,EPA_StoryTelling.png,,1,,,1,,,,1,,,,
