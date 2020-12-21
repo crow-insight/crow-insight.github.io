@@ -40,6 +40,12 @@ else if (url.includes("information_dashboards")) {
 	d3.select("#services-filter").style("font-weight", "700").style("color", selected_font_color);
 	open_drawer = true;
 }
+else if (url.includes("automated_reporting")) {
+	curr_filters.push("Automated Reporting");
+	curr_filter_category = "Services";
+	d3.select("#services-filter").style("font-weight", "700").style("color", selected_font_color);
+	open_drawer = true;
+}
 else {
 	d3.select("#all-filter").style("font-weight", "700").style("color", selected_font_color);
 }
