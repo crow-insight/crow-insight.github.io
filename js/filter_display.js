@@ -204,7 +204,7 @@ function createDrawer() {
 
 						let html_string = ""
 						for (let i = 0; i < d.length; i ++) {
-							let selected_style = " style='font-weight:700;color:#0D226B;' "
+							let selected_style = " style='font-weight:700;color:" + selected_font_color + ";' "
 
 							if (!curr_filters.includes(d[i].PlainLanguage)) {
 								selected_style = ""
@@ -234,7 +234,7 @@ function createDrawer() {
 						}
 						else {
 							curr_filters.push(button_text);
-							d3.select(this).style("font-weight", 700).style("color", "#0D226B");
+							d3.select(this).style("font-weight", 700).style("color", selected_font_color);
 						}
 
 						let available_filters_plain_language = d3.map(available_filters, function(d) { return d.PlainLanguage; });
@@ -247,7 +247,7 @@ function createDrawer() {
 						}
 
 						if (includes_a_selected_filter == true) {
-							filter_selection.style("font-weight", 700).style("color", "#0D226B");
+							filter_selection.style("font-weight", 700).style("color", selected_font_color);
 						}
 						else {
 							filter_selection.style("font-weight", 400).style("color", default_font_color);	
@@ -257,7 +257,7 @@ function createDrawer() {
 							d3.select("#all-filter").style("font-weight", 400).style("color", default_font_color);
 						}
 						else {
-							d3.select("#all-filter").style("font-weight", 700).style("color", "#0D226B");	
+							d3.select("#all-filter").style("font-weight", 700).style("color", selected_font_color);	
 						}
 
 						createDisplay(curr_filters);
@@ -273,7 +273,7 @@ function createDrawer() {
 				curr_filter_category = button_text
 
 				d3.selectAll(".filter-button-wrapper button").style("font-weight", 400).style("color", default_font_color);
-				filter_selection.style("font-weight", 700).style("color", "#0D226B");
+				filter_selection.style("font-weight", 700).style("color", selected_font_color);
 
 				curr_filters = []
 				createDisplay(curr_filters);

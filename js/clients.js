@@ -11,6 +11,7 @@ curr_filter_category = "All";
 curr_filters = []
 
 default_font_color = "#646468";
+selected_font_color = "#123c5d";
 
 const lookup_file_path = "../assets/data/clients_lookup.csv";
 const tags_file_path = "../assets/data/clients_tags.csv";
