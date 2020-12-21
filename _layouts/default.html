@@ -62,7 +62,10 @@
 
   {{content}}
 
-
-  {% include footer.html %}
+  {% if page.footercolor == "grey" %}
+    {% include grey-footer.html %}
+  {% else %}
+    {% include footer.html %}
+  {% endif %}
 </body>
 </html>
