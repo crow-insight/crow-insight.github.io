@@ -10,6 +10,8 @@
 	max-width: 50%;
 	height: 10vw;
 	object-fit: contain;
+	display: block;
+	margin: auto;
 }
 
 .core-principles .row:nth-child(2),
