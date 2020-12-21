@@ -29,10 +29,15 @@ function createProfiles(rows) {
 			let html_string = ""
 			for (let i = 0; i < d.length; i ++) {
 
+				let dot = '<span class="dot"></span>';
+				if (d[i]["photo"] != "") {
+					dot = "<img class='u-max-full-width' src='/assets/img/Staff/" + d[i]["photo"] +  "'> "
+				}
+
 				html_string= html_string + 
 							'<div class="' + block_column_class + ' columns">' +
 								'<div class="profile">' +
-							        '<span class="dot"></span>' +
+							        dot +
 							        '<h3>' + d[i]["name"] + '</h3>' +
 							    	'<p>' + d[i]["title"] + '</p>' +
 							    '</div>' +
