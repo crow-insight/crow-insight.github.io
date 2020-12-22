@@ -2,7 +2,7 @@
 layout: item
 title: "Faster Insights Help First-Generation Students"
 subtitle: "A Web-Based Survey Dashboard and Reporting Tool"
-permalink: /NASPA-ITRS/
+permalink: /NASPA_ITRS/
 image: "/assets/img/Portfolio/NASPA-ITRS-Sample.png"
 ---
 
