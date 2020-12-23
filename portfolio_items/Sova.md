@@ -1,4 +1,4 @@
-﻿---
+---
 layout: item
 title: "Faster Reporting Helps Colleges Drive Change"
 permalink: /Sova_ClimateScan_Report/
