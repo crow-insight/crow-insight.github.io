@@ -1,6 +1,7 @@
 ---
 layout: item
-title: "For Your Reference: Explanatory Graphics"
+title: "Are Lakes in Good Condition? How EPA Decides"
+subtitle: "A Careful Explanation of a Complex and Often Misunderstood Methodology"
 permalink: /EPA_reference_site/
 image: "/assets/img/Portfolio/Using-Reference-Lakes-To-Estimate-Conditions.png"
 ---
