@@ -1,6 +1,6 @@
 ---
 layout: item
-title: "Reporting Workshop Evaluation Results at Scale"
+title: "Faster Reporting for Conference Feedback Surveys"
 subtitle: "A System to Automatically Produce Hundreds of Polished Conference and Training Evaluation Reports"
 permalink: /Workshop_Evaluation_Report/
 image: "/assets/img/Portfolio/Automatic-Workshop-Evaluation-Report-Tile.png"
