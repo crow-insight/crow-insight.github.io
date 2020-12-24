@@ -1,7 +1,7 @@
 ---
 layout: item
-title: "Elbow Room"
-subtitle: "Getting the Community Involved"
+title: "Engaging a School Community with Data"
+subtitle: "An Interactive Dashboard for School District Capacity Discussions"
 permalink: /elbow/
 image: "/assets/img/Portfolio/ElbowRoom.png"
 ---
