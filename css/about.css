@@ -7,18 +7,19 @@
 }
 
 .core-principles .icon{
-	max-width: 50%;
-	height: 10vw;
+	max-width: 100%;
+	height: 12vw;
 	object-fit: contain;
 	display: block;
-	margin: auto;
+	margin-bottom: .5em;
+	/*margin: auto;*/
 }
 
 .core-principles .row:nth-child(2),
 .core-principles .row:nth-child(3),
 .core-principles .row:nth-child(4),
 .core-principles .row:nth-child(5) {
-	margin-bottom: 50px;
+	margin-top: 2em;
 }
 
 .team-profiles .four .columns {
