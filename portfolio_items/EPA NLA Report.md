@@ -1,6 +1,6 @@
 ---
 layout: item
-title: "Read Me! Modern Report Design"
+title: "Modern Report Design"
 permalink: /epa-modern-report-design/
 image: "/assets/img/Portfolio/ModernReport.png"
 ---
