@@ -83,3 +83,7 @@ h2 {
 .definitionText.hidden {
   display: none;
 }
+
+.center-text {
+  text-align: center;
+}
