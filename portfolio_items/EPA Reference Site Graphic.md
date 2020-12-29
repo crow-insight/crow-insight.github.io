@@ -9,4 +9,4 @@ Every year, U.S. EPA conducts complex field surveys to evaluate environmental qu
 
 This figure, from a 2016 report, explains how EPA determines the percentage of lakes in poor condition. Thoughtfully re-invented descriptions like this help technical audiences interpret and act upon scientific data. 
 
-Please also check out our other award-winning work on the National Lakes Assessment: [report design](../EPA_modern_report_design), [exploratory dashboards](../EPA_dashboard), and (for a general audience) [infographics](../EPA_should_your_lake).
+Please also check out our other award-winning work on the National Lakes Assessment: [report design](../epa-modern-report-design), [exploratory dashboards](../epa-dashboard), and (for a general audience) [infographics](../epa-should-your-lake).
