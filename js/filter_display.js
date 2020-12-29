@@ -61,7 +61,7 @@ function createBlocks(rows) {
 				let target = " ";
 				if (img_folder == "Client") {
 					descriptor = "";
-					target = " target='_blank' "
+					target = " target='_blank' rel='nofollow noopener' "
 				}
 
 				html_string = html_string + "<a" + target + "href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
