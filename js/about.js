@@ -31,7 +31,7 @@ function createProfiles(rows) {
 
 				let dot = '<span class="dot"></span>';
 				if (d[i]["photo"] != "") {
-					dot = "<img class='u-max-full-width' src='/assets/img/Staff/" + d[i]["photo"] +  "'> "
+					dot = "<img loading='lazy' class='u-max-full-width' src='/assets/img/Staff/" + d[i]["photo"] +  "'> "
 				}
 
 				html_string= html_string + 
