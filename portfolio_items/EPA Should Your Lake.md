@@ -2,7 +2,7 @@
 layout: item
 title: "Shareable Science, for Social Media"
 subtitle: 
-permalink: /EPA_should_your_lake/
+permalink: /epa-should-your-lake/
 image: "/assets/img/Portfolio/EPA_ShouldYourLake.png"
 ---
 We believe that good information design starts with a pithy message, not numbers inside donut charts.
