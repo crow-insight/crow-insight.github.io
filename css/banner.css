@@ -25,9 +25,14 @@
     background-color: #ebebeb;
 }
 
+.top-wave {
+    margin-top: .5em;
+}
+
 .bottom-wave {
     transform: translateY(-10px);
     margin-top: 10px;
+    margin-bottom: .5em;
 }
 
 .grey-wave svg path {
