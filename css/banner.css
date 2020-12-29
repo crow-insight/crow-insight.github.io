@@ -25,6 +25,11 @@
     background-color: #ebebeb;
 }
 
+.bottom-wave {
+    transform: translateY(-10px);
+    margin-top: 10px;
+}
+
 .grey-wave svg path {
     fill: #ebebeb;
 }
