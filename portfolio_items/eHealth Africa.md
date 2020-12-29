@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "Where Are You Calling From? Rapid Location-Assisted Crisis Response"
-permalink: /ehealth_africa/
+permalink: /ehealth-africa/
 image: "/assets/img/Portfolio/eHealthAfrica_Ebola.png"
 ---
 During the West African Ebola crisis, responders like **eHealth Africa** needed fast access to public health data. We designed a dashboard that enabled managers to better analyze and respond to Ebola call center trends. 

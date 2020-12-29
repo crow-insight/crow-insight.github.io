@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "Rapid Reporting Helps Colleges Drive Change"
-permalink: /Sova_ClimateScan_Report/
+permalink: /sova-climate-scan-report/
 image: "/assets/img/Portfolio/Sova-Climate-Scan-Sample2.png"
 ---
 

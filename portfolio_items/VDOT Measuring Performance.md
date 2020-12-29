@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "All Cleared Up: Measuring and Comparing Performance"
-permalink: /vdot_measuring_performance/
+permalink: /vdot-measuring-performance/
 image: "/assets/img/Portfolio/VDOT.png"
 ---
 For **Virginia's Department of Transportation**, we redesigned and automated key reports to facilitate in-meeting data exploration and decision-making by a highly technical audience. The suite of Tableau dashboards combines disjointed data sources.

@@ -2,7 +2,7 @@
 layout: item
 title: "Faster Insights to Foster Student Success"
 subtitle: "A Web-Based Dashboard and Reporting System for Large-Scale Surveys"
-permalink: /NASPA_ITRS/
+permalink: /naspa-reporting/
 image: "/assets/img/Portfolio/NASPA-ITRS-Sample.png"
 ---
 
