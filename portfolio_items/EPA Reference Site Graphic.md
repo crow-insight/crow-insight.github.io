@@ -1,9 +1,9 @@
 ---
 layout: item
-title: "Are Lakes in Good Condition? How EPA Decides"
+title: "Are Lakes in Good Shape? How EPA Decides"
 subtitle: "A Careful Explanation of a Complex and Often Misunderstood Methodology"
 permalink: /epa-reference-site/
-image: "/assets/img/Portfolio/OW_ExplanatoryGraphic.png"
+image: "/assets/img/Portfolio/EPA-NLA12-Condition-Benchmarking.png"
 ---
 Every year, [EPA's Office of Water](https://www.epa.gov/aboutepa/about-office-water){:target="_blank"}{:rel="nofollow noopener"} conducts complex field surveys to evaluate environmental quality in the nation’s water bodies. Crow Insight helps EPA’s Office of Water explain its findings to multiple audiences.
 <br>
