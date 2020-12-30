@@ -1,6 +1,6 @@
 ---
 layout: item
-title: "Faster Reporting for Conference Feedback Surveys"
+title: "Fast Reports on Conference Feedback Surveys"
 subtitle: "A System to Automatically Produce Hundreds of Polished Conference and Training Evaluation Reports"
 permalink: /workshop-evaluation-report/
 image: "/assets/img/Portfolio/Automatic-Workshop-Evaluation-Report-Tile.png"
