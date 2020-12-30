@@ -1,6 +1,7 @@
 ---
 layout: item
 title: "So Much to Give: Helping Donors Decide"
+subtitle: "A Dashboard for Federal Workers to Find Charities to Receive Ongoing Gifts"  
 permalink: /charitable-giving/
 image: "/assets/img/Portfolio/CombinedFederalCampaign.png"
 ---
