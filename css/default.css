@@ -94,3 +94,7 @@ h2 {
 .center-text {
   text-align: center;
 }
+
+.icon-wrapper {
+	width:140px;
+}
