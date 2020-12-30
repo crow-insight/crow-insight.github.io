@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "So Much to Give: Helping Donors Decide"
-permalink: /charitable_giving/
+permalink: /charitable-giving/
 image: "/assets/img/Portfolio/CombinedFederalCampaign.png"
 ---
 Crow Insight transformed the Combined Federal Campaign (CFC) Charity Search Tool in order to promote giving. The CFC enables federal workers to make charitable donations through payroll deductions, but workers face an overwhelming choice of more than 1,000 charities. This tool allows users to narrow their search.

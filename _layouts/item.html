@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="/css/banner.css">
   <link rel="stylesheet" href="/css/item.css">
 
+  {% seo %}
 </head>
 
 <body>
@@ -32,7 +33,7 @@
     </div>
     <div class="row">
       <div class="seven columns">
-        <img src="{{- page.image | relative_url -}}" alt="" class="u-full-width">
+        <img loading="lazy" src="{{- page.image | relative_url -}}" alt="Image of portfolio item" class="u-full-width">
       </div>
       <div class="five columns">
         {{content}}

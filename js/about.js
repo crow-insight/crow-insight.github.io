@@ -31,7 +31,7 @@ function createProfiles(rows) {
 
 				let dot = '<span class="dot"></span>';
 				if (d[i]["photo"] != "") {
-					dot = "<img class='u-max-full-width' src='/assets/img/Staff/" + d[i]["photo"] +  "'> "
+					dot = "<img loading='lazy' class='u-max-full-width' src='/assets/img/Staff/" + d[i]["photo"] +  "'> "
 				}
 
 				html_string= html_string + 
@@ -42,12 +42,6 @@ function createProfiles(rows) {
 							    	'<p>' + d[i]["title"] + '</p>' +
 							    '</div>' +
 						    '</div>'
-
-				// html_string = html_string + "<a target='_blank' href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
-				// 			"<img class='u-max-full-width " + img_folder + "' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
-				// 			"<p><strong>" + descriptor + "</strong>" + "<br>" + 
-				// 			getTags(d[i]) + "</p>" +
-				// 			"</a>";
 			}
 
 			return html_string;

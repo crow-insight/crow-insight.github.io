@@ -57,13 +57,17 @@ function createBlocks(rows) {
 					image_name = "modernreport.png"
 				}
 
-				let descriptor = d[i][attribute_name] 
+				let descriptor = d[i][attribute_name];
+				let alt_text = "Image of portfolio item";
+				let target = " ";
 				if (img_folder == "Client") {
 					descriptor = "";
+					target = " target='_blank' rel='nofollow noopener' "
+					alt_text = "Client logo"
 				}
 
-				html_string = html_string + "<a target='_blank' href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
-							"<img class='u-max-full-width " + img_folder + "' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
+				html_string = html_string + "<a" + target + "href='" + getPermalink(d, i) + "' class='"+ block_column_class +" columns block'>" +
+							"<img loading='lazy' alt='" + alt_text + "' class='u-max-full-width " + img_folder + "' src='/assets/img/" + img_folder + "/" + image_name + "' >" +
 							"<div><p><strong>" + descriptor + "</strong>" + "</p>" + 
 							"<p class='tags'>" + getTags(d[i]) + "</p></div>" +
 							"</a>";
@@ -100,7 +104,6 @@ function createDisplay(filters, show_featured_only) {
 	})
 	.then(function(d) {
 		d3.csv(tags_file_path, function(data, i) {
-			console.log("data is ", data, data.include);
 			if (data.include == 1) {
 				if (show_featured_only == true) {
 					if (data.featured == 1)
