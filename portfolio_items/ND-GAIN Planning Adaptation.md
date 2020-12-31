@@ -1,6 +1,6 @@
 ---
 layout: item
-title: "Explaining Urban Climate Resilience Ratings" 
+title: "Explaining Climate Resilience Ratings" 
 permalink: /nd-gain-planning-resilience/
 image: "/assets/img/Portfolio/ND-GAIN-Dot-Plot-Crop.png"
 ---
