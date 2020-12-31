@@ -15,12 +15,28 @@
 	/*margin: auto;*/
 }
 
-.core-principles .row:nth-child(2),
-.core-principles .row:nth-child(3),
-.core-principles .row:nth-child(4),
-.core-principles .row:nth-child(5) {
-	margin-top: 2em;
+.core-principles .tile-row {
+	display: block;
 }
+
+.core-principles .tile {
+	border: 10px solid #123c5d;
+	padding: 20px;
+	margin-top: 1em;
+}
+
+@media (min-width: 900px) {
+  .core-principles .tile-row {
+		display: flex;
+	}
+
+	.core-principles .tile {
+		align-items: stretch;
+		width: 48%;
+		margin: 1%;
+	}
+}
+
 
 .team-profiles .four .columns {
 	text-align: center;
