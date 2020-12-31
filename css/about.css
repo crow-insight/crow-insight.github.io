@@ -8,7 +8,7 @@
 
 .core-principles .icon{
 	max-width: 100%;
-	height: 12vw;
+	max-height: 160px;
 	object-fit: contain;
 	display: block;
 	margin-bottom: .5em;
