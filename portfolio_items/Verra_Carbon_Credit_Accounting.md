@@ -1,7 +1,7 @@
 ---
 layout: item
 title: "Arguing for Accurate Carbon Accounting"
-subtitle: "A Visual Explanation Using Custom Iconography and Some Basic Arithmetic"
+subtitle: "A Visual Explanation Using Custom Icons and Basic Arithmetic"
 permalink: /verra-carbon-credit-accounting/
 image: "/assets/img/Portfolio/Verra-Scenario4-No-Title.png"
 ---
