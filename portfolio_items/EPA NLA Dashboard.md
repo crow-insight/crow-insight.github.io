@@ -1,6 +1,6 @@
 ---
 layout: item
-title: "Providing New Perspectives on Scientific Data"
+title: "Fresh Perspectives on Scientific Data"
 subtitle: "Dashboards Helping Technical Users Explore Data on Enviromental Conditions"
 permalink: /epa-dashboard/
 image: "/assets/img/Portfolio/NLA_Dashboard.png"
