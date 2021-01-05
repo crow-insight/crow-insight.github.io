@@ -1,6 +1,7 @@
 ---
 layout: item
-title: "Extreme Lake Makeover: Storytelling Infographic"
+title: "Telling the Great Lakes Cleanup Story"
+subtitle: "An Infographic Illustrating a Successful Initiative by EPA and Its Partners"
 permalink: /great-lakes-restoration-initiative/
 image: "/assets/img/Portfolio/Extreme-Makeover-Great-Lakes2.png"
 ---
