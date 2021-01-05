@@ -48,3 +48,11 @@ p {
   font-size: .6em;
   color: white;
 }
+
+.block .tile-title {
+  font-weight: 700;
+}
+
+strong {
+  color: #123c5d;
+}
