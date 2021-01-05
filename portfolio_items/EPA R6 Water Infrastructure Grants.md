@@ -1,6 +1,7 @@
 ---
 layout: item
-title: "How the EPA Used $600 Million: Highlighting Successful Grant Initiatives"
+title: "Highlighting Healthier Water Supplies"
+subtitle: "Showing How EPA's $600 Million in Grants Improved Lives on the U.S.-Mexico Border."
 permalink: /epa-r6-water-infrastructure-grant/
 image: "/assets/img/Portfolio/Long-Road-Safer-Water.png"
 ---
