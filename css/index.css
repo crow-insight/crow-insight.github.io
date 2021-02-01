@@ -15,3 +15,7 @@
 .services-row div p {
  	text-align: center;
 }
+
+#display-container {
+	margin-bottom: 2em;
+}
